@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Welcome to my personal web page. I'm based in central Brooklyn, but I have also lived in the Memphis area, the Research Triangle in North Carolina, and the Los Angeles area for some years. In my professional life I design, build, and maintain state-of-the-art supercomputers. I've done this for a variety of institutions such as Duke University, the Large Hadron Collider CMS group at Caltech and CERN, and Memorial Sloan Kettering Cancer Center's HPC group. Currently I am working with <a href="https://www.paige.ai">Paige</a>, a spinoff of the Warren Alpert Center for Computational Pathology at MSKCC. Here you can find information about my professional activities and hobbies.

@@ -1,32 +1,10 @@
-## Blog Post Title From First Header
+## Contacting Me
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+If you would like to reach out to me, email is the preferred method. I do not answer calls from unknown numbers. There are no accounts on any social media sites that belong to me, so if you see one that claims to be me it is fake.
 
-If the file does not start with a header, then the post title will be derived from the filename.
+#### Contact Info
 
-This is a sample blog post. You can talk about all sorts of fun things here.
-
----
-
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
-
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
+```text
+Phone: (646)-(807)-(8099)
+Email: waynehendricks (at) gmail (.) com
 ```

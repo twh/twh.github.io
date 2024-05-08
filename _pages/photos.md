@@ -7,4 +7,4 @@ author_profile: true
 
 {% include base_path %}
 
-<iframe frameborder="no" border="0" src="https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g"></iframe>
+<iframe src="https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g" frameborder="0" scrolling="no"></iframe>

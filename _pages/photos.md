@@ -1,12 +1,10 @@
 ---
 layout: archive
-title: "Here is a gallery of select photos"
+title: "Here are a few of my photo galleries"
 permalink: /photos/
 author_profile: true
 ---
 
 {% include base_path %}
 
-<div class="icloud-container">
-	<iframe src='https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g' frameborder='0' scrolling='no'></iframe>
-</div>
+<a href="https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g">Best Shots</a>

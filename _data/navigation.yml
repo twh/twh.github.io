@@ -9,7 +9,7 @@ main:
   - title: "Photos"
     url: /photos/
         
-  - title: "Blog Posts"
+  - title: "Posts"
     url: /posts/
     
   - title: "CV"

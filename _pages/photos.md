@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Photos"
+title: "Here is a gallery of select photos"
 permalink: /photos/
 author_profile: true
 ---

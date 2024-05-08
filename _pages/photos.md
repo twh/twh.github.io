@@ -7,5 +7,5 @@ author_profile: true
 
 {% include base_path %}
 
-<a href="https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g">Best Shots</a>
+<a href="https://www.icloud.com/sharedalbum/#B0RJtdOXmJEF38g">Best Shots</a><br />
 <a href="https://www.icloud.com/sharedalbum/#B0R532ODWvyY6n">Geneology</a>

@@ -6,7 +6,7 @@ excerpt: 'The massive data volumes acquired, simulated, processed and analyzed b
 date: 2015-11-15
 venue: 'SC15: The International Conference for High Performance Computing, Networking, Storage and Analysis, Austin Texas'
 paperurl: 'http://twh.github.io/files/INDIS2015.pdf'
-citation: 'Hendricks, Wayne. (2015). &quot;INDIS '15: Proceedings of the Second Workshop on Innovating the Network for Data-Intensive Science&quot; <i>Association for Computing Machinery, New York, NY, United States</i>. 1(1).'
+citation: "Hendricks, Wayne. (2015). &quot;INDIS '15: Proceedings of the Second Workshop on Innovating the Network for Data-Intensive Science&quot; <i>Association for Computing Machinery, New York, NY, United States</i>. 1(1)."
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

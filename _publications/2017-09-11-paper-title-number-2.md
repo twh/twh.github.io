@@ -3,7 +3,7 @@ title: "HTTP as a Data Access Protocol: Trials with XrootD in CMS's AAA Project"
 collection: publications
 permalink: /publication/2017-09-11-paper-title-number-2
 excerpt: 'Caltech efforts enabling HTTP protocol in the XrootD global data federation'
-date: 2024-02-17
+date: 2011-09-11
 venue: 'Journal of Physics: Conference Series, Volume 898, 22nd International Conference on Computing in High Energy and Nuclear Physics (CHEP2016) 10–14 October 2016, San Francisco, USA'
 paperurl: 'http://twh.github.io/files/httpxrootd.pdf'
 citation: 'J Balcas et al. (2017). &quot;HTTP as a Data Access Protocol: Trials with XrootD in CMS’s AAA Project&quot; <i>J. Phys.: Conf. Ser. 898 112001, DOI 10.1088/1742-6596/898/11/112001</i>. IOP Publishing Ltd, Bristol, UK'

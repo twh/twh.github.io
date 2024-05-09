@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2015-11-15-paper-title-number-1
 excerpt: 'A detailed look at the experiments performed by the Caltech team and collaborators leading up to Supercomputing 2015' 
 date: 2015-11-15
-venue: "SC15: The International Conference for High Performance Computing, Networking, Storage and Analysis, Austin Texas, INDIS '15: Proceedings of the Second Workshop on Innovating the Network for Data-Intensive Science"
+venue: "INDIS '15: Proceedings of the Second Workshop on Innovating the Network for Data-Intensive Science, SC15: The International Conference for High Performance Computing, Networking, Storage and Analysis, Austin Texas"
 paperurl: 'http://twh.github.io/files/INDIS2015.pdf'
 citation: "H Newman et al. (2015). &quot;High speed scientific data transfers using software defined networking&quot; <i>INDIS '15: Proceedings of the Second Workshop on Innovating the Network for Data-Intensive Science DOI 
 10.1145/2830318 ISBN 9781450340021</i> Association for Computing Machinery, New York, NY, United States."

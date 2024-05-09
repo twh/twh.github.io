@@ -3,7 +3,7 @@ title: "SDN-NGenIA, a software defined next generation integrated architecture f
 collection: publications
 permalink: /publication/2017-09-11-paper-title-number-3
 excerpt: 'The Caltech CMS team efforts to build a system for coordinating networks, storage, and data flows'
-date: 2024-02-17
+date: 2017-09-11
 venue: 'Journal of Physics: Conference Series, Volume 898, 22nd International Conference on Computing in High Energy and Nuclear Physics (CHEP2016) 10–14 October 2016, San Francisco, USA'
 paperurl: 'http://twh.github.io/files/sdn-ngenia.pdf'
 citation: 'J Balcas et al. (2017). &quot;SDN-NGenIA, a software defined next generation integrated architecture for HEP and data intensive science&quot; <i>J. Phys.: Conf. Ser. 898 112001, DOI 10.1088/1742-6596/898/11/112001</i>. IOP Publishing Ltd, Bristol, UK'

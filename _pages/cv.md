@@ -157,6 +157,7 @@ Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc,
    - Authors: Siqi Liu et al.
    - arXiv:2408.00738 [cs.CV]
    - [Link to Article](https://arxiv.org/pdf/2408.00738)
+
 ---
 
 ## References

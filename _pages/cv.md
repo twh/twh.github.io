@@ -32,7 +32,7 @@ Highly organized technical professional with a distinguished systems engineering
 - Deployed cloud scheduling system and scaled from 5 users to 40+.
 - Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
 - Integrated Dask and Prefect tools with the Slurm API for automated job scheduling.
-- Assisted with the developemnt of two ground-breaking histopathology foundational models. 
+- Assisted with the development of two ground-breaking histopathology foundational models. 
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**  

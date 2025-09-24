@@ -22,23 +22,24 @@ Highly organized technical professional with a distinguished systems engineering
 ## Career History
 
 ### Senior HPC Engineer
-**Paige (Paige.AI), New York City**  
+**Tempus AI (formerly Paige.AI), New York City**  
 *2022-Present*
 
 - Principal HPC engineer focusing on AI/ML imagery workflows on NVIDIA GPUs.
-- Designed and built Azure/AWS cloud AI/ML HPC clusters and storage systems.
+- Expanded into the cloud with Azure/AWS AI/ML HPC clusters Lustre storage.
 - Deployed tools such as Slurm, CycleCloud, Lustre, Weka, Netapp Files, and others.
 - Key computing infrastructure resource to multiple AI/ML teams.
 - Deployed cloud scheduling system and scaled from 5 users to 40+.
 - Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
 - Integrated Dask and Prefect tools with the Slurm API for automated job scheduling.
 - Assisted with the development of two ground-breaking histopathology foundational models. 
+- Helped scale and grow Paige until the 81.5m acquisition by Tempus AI in Sept 2025.
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**  
 *2018-2022*
 
-- Collaborated on DGX AI/ML HPC cluster with the Fuchs Lab and their spinoff company Paige.
+- Designed and built DGX1 based AI/ML HPC cluster with PureStorage Flashblades.
 - Conducted technical interviews from individual contributor to VP level and helped fill most of the early engineering staff at Paige.
 - Served as an engineering consultant resource to the Research Computing and HPC teams.
 - Expanded storage with Pure, Qumulo, and S3 by moving from a flat to a tiered model based on data usage.

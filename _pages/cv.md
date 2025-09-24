@@ -39,7 +39,7 @@ Highly organized technical professional with a distinguished systems engineering
 **Memorial Sloan Kettering Cancer Center, New York City**  
 *2018-2022*
 
-- Designed and built DGX1 based AI/ML HPC cluster with PureStorage Flashblades.
+- Designed and built DGX1 based AI/ML HPC cluster with Cisco RoCE and PureStorage Flashblades.
 - Conducted technical interviews from individual contributor to VP level and helped fill most of the early engineering staff at Paige.
 - Served as an engineering consultant resource to the Research Computing and HPC teams.
 - Expanded storage with Pure, Qumulo, and S3 by moving from a flat to a tiered model based on data usage.
@@ -132,7 +132,7 @@ Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc,
 
 ---
 
-## Publications
+## Publications and Acknowledgments
 
 1. **SDN-NGenIA, a software defined next generation integrated architecture for HEP and data intensive science**
    - Authors: J Balcas et al.

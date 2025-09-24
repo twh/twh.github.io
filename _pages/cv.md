@@ -125,7 +125,7 @@ Regular attendee at various conferences such as Duke TechExpo, HEPiX, OSG/HTCond
 FreeBSD, RHEL/CentOS/Rocky/Alma, Oracle/Sun Solaris, MacOS, Ubuntu, Windows (limited).
 
 **Software/Tools:**  
-Scripting (shell/perl/python/ruby), Web (XHTML/CSS, Apache, NGINX, Jekyll, Squid, Wordpress), Monitoring (RRD tool, Ganglia, Cacti, Nagios, HP Openview, CA Spectrum, PagerDuty, DataDog, InfluxDB, Grafana, Prometheus), Config (Puppet, Ansible, Salt, Terraform, Packer), Virtualization/Cloud (VMware, KVM/libvirt, OpenStack, Azure, AWS), TCP/IP (nmap, wireshark, tcpdump), Security/IdM (BSD Packet Filter, iptables, Nessus, hostapd, SSSD, OpenLDAP, Shibboleth, Okta, SentinelOne, Sumologic), Scheduling/HPC (HTcondor, Slurm, OpenMPI, NVIDIA tools), Storage (ZFS, DRBD, Ceph, Gluster, HDFS, Lustre, Netapp, Weka, Qumulo, Pure).
+Scripting (shell/perl/python/ruby), Web (XHTML/CSS, Apache, NGINX, Jekyll, Squid, Wordpress), Monitoring (RRD tool, Ganglia, Cacti, Nagios, HP Openview, CA Spectrum, PagerDuty, DataDog, InfluxDB, Grafana, Prometheus), Config (Puppet, Ansible, Salt, Terraform, Packer), Virtualization/Cloud (VMware, KVM/libvirt, OpenStack, Azure, AWS), TCP/IP (nmap, wireshark, tcpdump), Security/IdM (BSD Packet Filter, iptables, Nessus, hostapd, SSSD, OpenLDAP, Shibboleth, Okta, SentinelOne, Sumologic), Scheduling/HPC (HTcondor, Slurm, OpenMPI, NVIDIA tools), Storage (ZFS, DRBD, Ceph, Gluster, HDFS, GPFS, Lustre, Netapp, Weka, Qumulo, Pure).
 
 **Hardware:**  
 Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc, Raspberry Pi), Networking (Mellanox, Dell/Force10, Cisco NXOS/IOS, Arista, EdgeCore/whitebox, SonicOS), RF (LXE 6000 series, Ubiquiti Networks, UHF/VHF radios, Motorola)

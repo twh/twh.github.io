@@ -33,7 +33,7 @@ Highly organized technical professional with a distinguished systems engineering
 - Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
 - Integrated Dask and Prefect tools with the Slurm API for automated job scheduling.
 - Assisted with the development of two ground-breaking histopathology foundational models. 
-- Helped scale and grow Paige until the 81.5m acquisition by Tempus AI in Sept 2025.
+- Helped scale and grow Paige until the $81m acquisition by Tempus AI in Sept 2025.
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**  

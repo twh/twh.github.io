@@ -1,0 +1,142 @@
+---
+title: "CV"
+date: 2026-05-08
+showTableOfContents: true
+---
+
+[Download PDF version](/files/wayne-hendricks-cv.pdf) *(coming soon)*
+
+---
+
+# Thomas Wayne Hendricks
+
+---
+
+## Professional Summary
+
+Highly organized technical professional with a distinguished systems engineering career. Savvy technician with the ability to quantify organizational goals and establish appropriate policies. Passionate about new technology and highly focused on operational efficiency and reuse.
+
+---
+
+## Career History
+
+### Senior HPC Engineer
+**Tempus AI (formerly Paige.AI), New York City**
+*2022–Present*
+
+- Principal HPC engineer focusing on AI/ML imagery workflows on NVIDIA GPUs.
+- Expanded into the cloud with Azure/AWS AI/ML HPC clusters Lustre storage.
+- Deployed tools such as Slurm, CycleCloud, Lustre, Weka, Netapp Files, and others.
+- Key computing infrastructure resource to multiple AI/ML teams.
+- Deployed cloud scheduling system and scaled from 5 users to 40+.
+- Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
+- Integrated Dask and Prefect tools with the Slurm API for automated job scheduling.
+- Assisted with the development of two ground-breaking histopathology foundational models.
+- Helped scale and grow Paige until the $81M acquisition by Tempus AI in Sept 2025.
+
+### HPC Engineer
+**Memorial Sloan Kettering Cancer Center, New York City**
+*2018–2022*
+
+- Designed and built DGX1 based AI/ML HPC cluster with Cisco RoCE and PureStorage Flashblades.
+- Conducted technical interviews from individual contributor to VP level and helped fill most of the early engineering staff at Paige.
+- Served as an engineering consultant resource to the Research Computing and HPC teams.
+- Expanded storage with Pure, Qumulo, and S3 by moving from a flat to a tiered model based on data usage.
+- Assisted with the acquisition and leasing of a turn-key scientific datacenter facility.
+
+### Computing and Software Systems Research Engineer
+**California Institute of Technology High Energy Physics – CMS, Pasadena, California**
+*2015–2018*
+
+- Principal administrator of the Caltech Tier2 cluster for the Compact Muon Solenoid at CERN's Large Hadron Collider.
+- Deployed and maintained a 7,300 slot HTCondor scheduling system with 4.5 PB of storage.
+- Collaborated with Fermilab, CERN, and other sites on LHC and Open Science Grid compute infrastructure.
+- Managed a budget of $150k per year for hardware maintenance and refreshes.
+- Developed a state-of-the-art SDN testbed for testing scientific workflows via contribution to ESnet.
+- Redesigned the core network topology into a tiered model to minimize latency and increase redundancy.
+- Deployed an R&D Ceph cluster for testing advanced features and contributing to the XrootD project.
+- Presented at various conferences and institutions showcasing the work done by the Caltech HEP team.
+
+### Systems Analyst, IT Operations Management
+**Duke University, Durham, North Carolina**
+*2011–2015*
+
+- Principal Unix/Linux and network analyst on a small operations team that managed all university systems and applications.
+- Conducted change management, incident management, operations monitoring, and documentation for all enterprise applications.
+- Principal administrator for monitoring/metrics and mission critical 24/7 NOC alerting systems.
+- Acted as a liaison to the Network/VoIP engineering teams and technical advisor to academic, research, and business teams.
+- Coded large screen dashboard displays in Perl for ServiceNow, Tableau, CA Spectrum, and other APIs.
+- Led evaluation of monitoring and metrics products for 20k endpoint VoIP infrastructure.
+
+### Senior Technical Analyst
+**FedEx, Memphis, Tennessee**
+*2007–2011*
+
+- Provided production support for Unix/Linux sorting automation and command-and-control hosts.
+- Deployed and maintained highly available SCADA systems critical to global logistics operations.
+- Advised multiple teams on operating systems, DNS, web, monitoring, automation, and security.
+- Constructed monitoring and response solution for worldwide critical SCADA systems.
+- Designed and deployed systems for a new full-automated lights-out facility.
+- Supported 900MHz wireless and handheld device infrastructure.
+
+### Technical Analyst
+**FedEx, Memphis, Tennessee**
+*2005–2007*
+
+- Assisted with the day-to-day operation of the www.fedex.com distributed infrastructure.
+- Monitored production Linux/FreeBSD/Solaris systems across DMZ, ZMD, and backend.
+- Provided first level support for all fedex.com C and Java/Weblogic applications.
+- Organized and managed emergency technical conference bridges during incidents.
+
+### Intern II
+**FedEx, Memphis, Tennessee**
+*2005*
+
+- Interned with the Systems Administration and Consulting group.
+- Assisted with the implementation of new data center infrastructure.
+- Retired a legacy request queue system by migrating to a new one.
+
+### Contractor / College Student
+*2000–2005*
+
+- Evaluated, designed, and implemented a building network and wifi upgrade.
+- Constructed and maintained a new university departmental website.
+- Developed and deployed a business backup solution for critical data.
+
+---
+
+## Education & Training
+
+**BaSc in Information Systems Infrastructure/Security**
+ITT, Memphis, TN.
+
+**Corporate Training Courses:**
+Programming Perl, Linux Systems Administration, Managing Security in Software Projects, Firewall Techniques.
+
+**Conferences:**
+Regular attendee at Duke TechExpo, HEPiX, OSG/HTCondor Week, Supercomputing, ISC, NVIDIA GTC.
+
+---
+
+## Technical Experience
+
+**Operating Systems:**
+FreeBSD, RHEL/CentOS/Rocky/Alma, Oracle/Sun Solaris, MacOS, Ubuntu, Windows (limited).
+
+**Software/Tools:**
+Scripting (shell/perl/python/ruby), Web (XHTML/CSS, Apache, NGINX, Jekyll, Squid, WordPress), Monitoring (RRD tool, Ganglia, Cacti, Nagios, HP Openview, CA Spectrum, PagerDuty, DataDog, InfluxDB, Grafana, Prometheus), Config (Puppet, Ansible, Salt, Terraform, Packer), Virtualization/Cloud (VMware, KVM/libvirt, OpenStack, Azure, AWS), TCP/IP (nmap, wireshark, tcpdump), Security/IdM (BSD Packet Filter, iptables, Nessus, hostapd, SSSD, OpenLDAP, Shibboleth, Okta, SentinelOne, Sumologic), Scheduling/HPC (HTCondor, Slurm, OpenMPI, NVIDIA tools), Storage (ZFS, DRBD, Ceph, Gluster, HDFS, GPFS, Lustre, Netapp, Weka, Qumulo, Pure).
+
+**Hardware:**
+Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc, Raspberry Pi), Networking (Mellanox, Dell/Force10, Cisco NXOS/IOS, Arista, EdgeCore/whitebox, SonicOS), RF (LXE 6000 series, Ubiquiti Networks, UHF/VHF radios, Motorola).
+
+---
+
+## Publications and Acknowledgments
+
+See the [Publications](/publications/) page for the full list with links.
+
+---
+
+## References
+
+Available upon request.

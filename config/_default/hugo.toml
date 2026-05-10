@@ -1,0 +1,6 @@
+baseURL = "https://waynehendricks.com/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+paginate = 10
+theme = "blowfish"

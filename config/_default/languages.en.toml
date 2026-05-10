@@ -1,0 +1,18 @@
+label = "English"
+locale = "en"
+weight = 1
+title = "Wayne Hendricks"
+
+[author]
+name = "Wayne Hendricks"
+image = "img/profile.jpg"
+headline = "HPC Engineer · AI Infrastructure"
+bio = "I build the GPU clusters that train production AI models. Currently scaling NVIDIA H100 environments at Tempus for histopathology foundation models. Previously: Paige (through the Tempus acquisition), Memorial Sloan Kettering, and the Caltech CMS Tier-2 for the LHC."
+links = [
+  { github = "https://github.com/waynehendricks" },
+  { linkedin = "https://linkedin.com/in/waynehendricks" },
+  { google-scholar = "https://scholar.google.com/citations?user=PLACEHOLDER" },
+  { orcid = "https://orcid.org/PLACEHOLDER" },
+  { email = "mailto:waynehendricks@gmail.com" },
+  { rss = "/index.xml" },
+]

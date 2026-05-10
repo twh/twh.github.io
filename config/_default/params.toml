@@ -1,0 +1,38 @@
+colorScheme = "forest"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+mainSections = ["projects"]
+showAppearanceSwitcher = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+[homepage]
+layout = "profile"
+showRecent = true
+showRecentItems = 6
+showMoreLink = true
+showMoreLinkDest = "/projects/"
+cardView = true
+
+[article]
+showDate = true
+showAuthor = false
+showReadingTime = true
+showTaxonomies = true
+showWordCount = false
+showTableOfContents = true
+showRelatedContent = false
+showComments = false
+
+[list]
+showCards = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5

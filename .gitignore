@@ -1,5 +1,10 @@
-# Ignore the contents of the _site directory
+# Jekyll
 _site/
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
 
 # Ignore the directory for local files during development
 local/

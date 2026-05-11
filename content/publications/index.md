@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Publications and Acknowledgements"
 description: "Co-authored papers in computational pathology and high-energy physics computing."
 date: 2026-05-08
 showTableOfContents: false

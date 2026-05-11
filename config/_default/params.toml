@@ -3,17 +3,14 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-mainSections = ["projects"]
+mainSections = []
 showAppearanceSwitcher = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [homepage]
 layout = "profile"
-showRecent = true
-showRecentItems = 6
-showMoreLink = true
-showMoreLinkDest = "/projects/"
+showRecent = false
 cardView = true
 
 [article]

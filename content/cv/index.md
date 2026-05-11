@@ -4,7 +4,7 @@ date: 2026-05-08
 showTableOfContents: true
 ---
 
-[Download PDF version](/files/wayne-hendricks-cv.pdf) *(coming soon)*
+[Download PDF version](/files/wayne-hendricks-cv.pdf)
 
 ---
 

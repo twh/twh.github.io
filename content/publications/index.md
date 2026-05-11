@@ -1,14 +1,12 @@
 ---
 title: "Publications and Acknowledgements"
-description: "Co-authored papers in computational pathology and high-energy physics computing."
+description: "Publications and Acknowledgements"
 date: 2026-05-08
 showTableOfContents: false
 showReadingTime: false
 ---
 
-Selected co-authored papers across two halves of a career: computational
-pathology foundation models, and high-energy physics computing
-infrastructure for the LHC.
+Selected papers that are directly related to my work.
 
 ## 2024
 

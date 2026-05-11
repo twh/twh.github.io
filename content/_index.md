@@ -1,9 +1,8 @@
 ---
 title: "Wayne Hendricks"
-description: "HPC engineer · AI infrastructure"
+description: "Personal website of Wayne Hendricks"
 ---
 
-I design and run the GPU clusters that train production AI models.
+I design, build, and maintain state-of-the art networks and supercomputers.
 
-**Currently:** Scaling NVIDIA H100 training infrastructure at Tempus
-for the next generation of histopathology foundation models.
+**Currently:** Scientific infrastructure and HPC at [Tempus](https://www.tempus.com).

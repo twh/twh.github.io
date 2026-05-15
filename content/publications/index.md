@@ -18,6 +18,8 @@ Virchow2G (1.9B), and Virchow2G Mini (22M distilled) — trained on
 3.1 million histopathology whole-slide images. State-of-the-art on
 12 tile-level tasks.
 
+*Contribution: Designed and operated the GPU compute infrastructure and high-throughput storage environment used to train and validate all three models.*
+
 [arXiv](https://arxiv.org/abs/2408.00738) ·
 [PDF](https://arxiv.org/pdf/2408.00738)
 
@@ -28,6 +30,8 @@ Virchow2G (1.9B), and Virchow2G Mini (22M distilled) — trained on
 
 A multi-modal generative foundation model operating at the slide level
 for computational pathology, jointly modeling histology and clinical text.
+
+*Contribution: Built and maintained the HPC infrastructure supporting large-scale whole-slide image preprocessing, model training, and validation.*
 
 [arXiv](https://arxiv.org/abs/2405.10254) ·
 [PDF](https://arxiv.org/pdf/2405.10254)

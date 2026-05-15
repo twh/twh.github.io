@@ -3,6 +3,6 @@ title: "Wayne Hendricks"
 description: "Personal website of Wayne Hendricks"
 ---
 
-I design, build, and maintain state-of-the art networks and supercomputers.
+Senior HPC engineer specializing in GPU infrastructure for foundational AI model training. Currently at [Tempus](https://www.tempus.com), building the multi-cloud compute environments behind the groundbreaking Virchow2 and PRISM histopathology models. Previously at the Caltech department of High Energy Physics, Memorial Sloan Kettering Cancer Center, and Paige.AI (acquired by Tempus, 2025).
 
-**Currently:** Scientific infrastructure and HPC at [Tempus](https://www.tempus.com).
+**Expertise:** GPU Systems · Schedulers · High Performance Storage Systems · Multi-Cloud · Scientific Networking

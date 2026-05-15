@@ -14,7 +14,7 @@ showTableOfContents: true
 
 ## Professional Summary
 
-Highly organized technical professional with a distinguished systems engineering career. Savvy technician with the ability to quantify organizational goals and establish appropriate policies. Passionate about new technology and highly focused on operational efficiency and reuse.
+Senior HPC engineer with 20 years of experience building large-scale computing infrastructure across high-energy physics, oncology AI, and foundational model training. Experienced across multiple GPU generations and petabyte-scale parallel storage, with hands-on depth in Slurm and HTCondor scheduling at scale. Infrastructure contributor to the groundbreaking Virchow2 and PRISM histopathology models at Paige.AI/Tempus. Previously built and operated the Caltech CMS Tier-2, a 7,300-slot HTCondor cluster with 4.5 PB of storage supporting the Large Hadron Collider.
 
 ---
 
@@ -24,9 +24,9 @@ Highly organized technical professional with a distinguished systems engineering
 **Tempus AI (formerly Paige.AI), New York City**
 *2022–Present*
 
-- Principal HPC engineer focusing on AI/ML imagery workflows on NVIDIA GPUs.
-- Expanded into the cloud with Azure/AWS AI/ML HPC clusters Lustre storage.
-- Deployed tools such as Slurm, CycleCloud, Lustre, Weka, Netapp Files, and others.
+- Sole HPC engineer focusing on AI/ML imagery workflows on NVIDIA GPUs.
+- Architected a dynamic Azure CycleCloud cluster that scales on-demand to hundreds of GPU nodes; executed 1.5M Slurm jobs in 2025.
+- Managed 7 PB of whole-slide image data in Azure Blob Storage fronted by Azure Managed Lustre for high-throughput training I/O.
 - Key computing infrastructure resource to multiple AI/ML teams.
 - Deployed cloud scheduling system and scaled from 5 users to 40+.
 - Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
@@ -38,10 +38,10 @@ Highly organized technical professional with a distinguished systems engineering
 **Memorial Sloan Kettering Cancer Center, New York City**
 *2018–2022*
 
-- Designed and built DGX1 based AI/ML HPC cluster with Cisco RoCE and PureStorage Flashblades.
+- Designed and built a 100-GPU DGX-1 cluster with Cisco RoCE networking and Pure Storage FlashBlade for high-throughput AI/ML workloads.
 - Conducted technical interviews from individual contributor to VP level and helped fill most of the early engineering staff at Paige.
 - Served as an engineering consultant resource to the Research Computing and HPC teams.
-- Expanded storage with Pure, Qumulo, and S3 by moving from a flat to a tiered model based on data usage.
+- Expanded storage to 4 PB of object (S3/Qumulo) and 500 TB of Pure FlashBlade by migrating from a flat to a tiered model based on data temperature.
 - Assisted with the acquisition and leasing of a turn-key scientific datacenter facility.
 
 ### Computing and Software Systems Research Engineer
@@ -120,14 +120,18 @@ Regular attendee at Duke TechExpo, HEPiX, OSG/HTCondor Week, Supercomputing, ISC
 
 ## Technical Experience
 
-**Operating Systems:**
-FreeBSD, RHEL/CentOS/Rocky/Alma, Oracle/Sun Solaris, MacOS, Ubuntu, Windows (limited).
-
-**Software/Tools:**
-Scripting (shell/perl/python/ruby), Web (XHTML/CSS, Apache, NGINX, Jekyll, Squid, WordPress), Monitoring (RRD tool, Ganglia, Cacti, Nagios, HP Openview, CA Spectrum, PagerDuty, DataDog, InfluxDB, Grafana, Prometheus), Config (Puppet, Ansible, Salt, Terraform, Packer), Virtualization/Cloud (VMware, KVM/libvirt, OpenStack, Azure, AWS), TCP/IP (nmap, wireshark, tcpdump), Security/IdM (BSD Packet Filter, iptables, Nessus, hostapd, SSSD, OpenLDAP, Shibboleth, Okta, SentinelOne, Sumologic), Scheduling/HPC (HTCondor, Slurm, OpenMPI, NVIDIA tools), Storage (ZFS, DRBD, Ceph, Gluster, HDFS, GPFS, Lustre, Netapp, Weka, Qumulo, Pure).
-
-**Hardware:**
-Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc, Raspberry Pi), Networking (Mellanox, Dell/Force10, Cisco NXOS/IOS, Arista, EdgeCore/whitebox, SonicOS), RF (LXE 6000 series, Ubiquiti Networks, UHF/VHF radios, Motorola).
+| Category | Technologies |
+|---|---|
+| **Schedulers** | Slurm, HTCondor, Kueue, OpenMPI, NVIDIA tools |
+| **GPU / Compute** | NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant |
+| **Storage** | Lustre, Weka, GPFS, Ceph, ZFS, DRBD, Gluster, HDFS, NetApp, Qumulo, Pure |
+| **Cloud** | Azure, AWS, GCP, VMware, KVM/libvirt, OpenStack |
+| **Networking** | Mellanox, Cisco NXOS/IOS, Arista, Dell/Force10, EdgeCore/whitebox, DOCA, NCCL |
+| **IaC / Config** | Terraform, Packer, Ansible, Puppet, Salt, Git, GitHub, GitLab |
+| **Monitoring** | Prometheus, Grafana, InfluxDB, DataDog, Ganglia, Nagios, PagerDuty, SumoLogic |
+| **OS** | RHEL/Rocky/Alma, FreeBSD, Ubuntu, Oracle/Sun Solaris, macOS |
+| **Security / IdM** | SSSD, OpenLDAP, Okta, SentinelOne, nftables/pf, CIS Hardening |
+| **Languages** | Python, Bash/shell, Perl, Ruby |
 
 ---
 
@@ -136,7 +140,3 @@ Servers (NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant, Oracle/Sun Sparc,
 See the [Publications](/publications/) page for the full list with links.
 
 ---
-
-## References
-
-Available upon request.

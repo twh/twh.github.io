@@ -6,13 +6,12 @@ title = "Wayne Hendricks"
 [author]
 name = "Wayne Hendricks"
 image = "img/profile.jpg"
-headline = "HPC Engineer · AI Infrastructure"
-bio = "I build the GPU clusters that train production AI models. Currently scaling NVIDIA H100 environments at Tempus for histopathology foundation models. Previously: Paige (through the Tempus acquisition), Memorial Sloan Kettering, and the Caltech CMS Tier-2 for the LHC."
+headline = "Principal HPC Engineer · Foundation Model Training Infrastructure"
+bio = "Sole HPC engineer at Paige.AI through the $81M Tempus acquisition. Built the GPU and storage infrastructure behind Virchow2 and PRISM. Previously Caltech CMS Tier-2 for the LHC and Memorial Sloan Kettering."
 links = [
-  { github = "https://github.com/waynehendricks" },
-  { linkedin = "https://linkedin.com/in/waynehendricks" },
-  { google-scholar = "https://scholar.google.com/citations?user=PLACEHOLDER" },
-  { orcid = "https://orcid.org/PLACEHOLDER" },
-  { email = "mailto:waynehendricks@gmail.com" },
+  { github = "https://github.com/twh" },
+  { google-scholar = "https://scholar.google.com/citations?hl=en&user=R2H2QjwAAAAJ" },
+  { orcid = "https://orcid.org/0000-0001-9111-8968" },
+  { email = "mailto:twh@waynehendricks.com" },
   { rss = "/index.xml" },
 ]

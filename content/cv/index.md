@@ -14,7 +14,21 @@ showTableOfContents: true
 
 ## Professional Summary
 
-Senior HPC engineer with 20 years of experience building large-scale computing infrastructure across high-energy physics, oncology AI, and foundational model training. Experienced across multiple GPU generations and petabyte-scale parallel storage, with hands-on depth in Slurm and HTCondor scheduling at scale. Infrastructure contributor to the groundbreaking Virchow2 and PRISM histopathology models at Paige.AI/Tempus. Previously built and operated the Caltech CMS Tier-2, a 7,300-slot HTCondor cluster with 4.5 PB of storage supporting the Large Hadron Collider.
+Principal HPC engineer specializing in foundation model training infrastructure for clinical and scientific AI. Currently a Senior HPC Engineer at Tempus in New York City, where I lead GPU and storage infrastructure behind histopathology foundation models. Joined through the September 2025 $81M acquisition of Paige.AI, where I was the sole HPC engineer through the company's growth from 5 to 40+ machine learning users and helped fill the early engineering staff. Previously principal administrator of the Caltech CMS Tier-2 cluster for the Large Hadron Collider, operating 7,300 HTCondor slots and 4.5 PB of storage in production collaboration with CERN, Fermilab, and the Open Science Grid.
+
+Distinctive combination of regulated clinical AI infrastructure (FDA-cleared products built on top of systems I designed) and distributed scientific computing at extreme scale (one of the largest production HTCondor deployments in academic physics). Looking for principal or founding-engineering roles at AI/bio companies advancing scientific and biological foundation models, autonomous lab platforms, or frontier-scale training infrastructure.
+
+---
+
+## Selected Achievements
+
+- Sole HPC engineer at Paige.AI (2022–2025) through the $81M acquisition by Tempus AI in September 2025.
+- Built the GPU and storage infrastructure behind the [Virchow2](https://arxiv.org/abs/2408.00738) and [PRISM](https://arxiv.org/abs/2405.10254) histopathology foundation models, both state-of-the-art in clinical AI for pathology.
+- Scaled clinical AI training infrastructure across four NVIDIA generations: Pascal, Volta, Ampere, and Hopper.
+- Designed and operated multi-cloud HPC environments on Azure and AWS with Lustre, Weka, and NetApp storage.
+- Principal administrator of the Caltech CMS Tier-2 cluster for the LHC: 7,300 HTCondor slots, 4.5 PB of storage.
+- Built the 100-GPU DGX-1 AI/ML cluster at Memorial Sloan Kettering Cancer Center with Cisco RoCE and Pure Storage FlashBlade.
+- Conducted technical interviews from individual contributor through VP level, helping fill the early engineering staff at Paige.AI.
 
 ---
 
@@ -24,15 +38,14 @@ Senior HPC engineer with 20 years of experience building large-scale computing i
 **Tempus AI (formerly Paige.AI), New York City**
 *2022–Present*
 
-- Sole HPC engineer focusing on AI/ML imagery workflows on NVIDIA GPUs.
+- **Sole HPC engineer at Paige.AI through the $81M acquisition by Tempus AI in September 2025.** Owned end-to-end GPU, storage, scheduling, and multi-cloud infrastructure for clinical foundation model training.
+- Built and scaled the GPU training infrastructure behind the Virchow2 and PRISM histopathology foundation models, both state-of-the-art in clinical AI for pathology.
 - Architected a dynamic Azure CycleCloud cluster that scales on-demand to hundreds of GPU nodes; executed 1.5M Slurm jobs in 2025.
 - Managed 7 PB of whole-slide image data in Azure Blob Storage fronted by Azure Managed Lustre for high-throughput training I/O.
-- Key computing infrastructure resource to multiple AI/ML teams.
-- Deployed cloud scheduling system and scaled from 5 users to 40+.
-- Scaled from Pascal/Volta GPUs to Ampere/Hopper GPU and CPU systems.
-- Integrated Dask and Prefect tools with the Slurm API for automated job scheduling.
-- Assisted with the development of two ground-breaking histopathology foundational models.
-- Helped scale and grow Paige until the $81M acquisition by Tempus AI in Sept 2025.
+- Scaled training infrastructure from 5 to 40+ ML users while moving from Pascal/Volta on-prem GPUs to Ampere/Hopper systems across Azure and AWS.
+- Integrated Dask and Prefect with the Slurm API for automated job orchestration; deployed cloud scheduling system used across the organization.
+- Key computing infrastructure resource to multiple AI/ML research and engineering teams.
+- Continued in this role through the Tempus integration, where Paige's pathology foundation models are being incorporated into Tempus's broader oncology foundation model effort.
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**
@@ -48,60 +61,21 @@ Senior HPC engineer with 20 years of experience building large-scale computing i
 **California Institute of Technology High Energy Physics – CMS, Pasadena, California**
 *2015–2018*
 
-- Principal administrator of the Caltech Tier2 cluster for the Compact Muon Solenoid at CERN's Large Hadron Collider.
-- Deployed and maintained a 7,300 slot HTCondor scheduling system with 4.5 PB of storage.
-- Collaborated with Fermilab, CERN, and other sites on LHC and Open Science Grid compute infrastructure.
-- Managed a budget of $150k per year for hardware maintenance and refreshes.
-- Developed a state-of-the-art SDN testbed for testing scientific workflows via contribution to ESnet.
-- Redesigned the core network topology into a tiered model to minimize latency and increase redundancy.
-- Deployed an R&D Ceph cluster for testing advanced features and contributing to the XrootD project.
-- Presented at various conferences and institutions showcasing the work done by the Caltech HEP team.
+- Principal administrator of the Caltech Tier-2 cluster for the Compact Muon Solenoid experiment at CERN's Large Hadron Collider — one of the largest production scientific computing environments in physics.
+- Operated a 7,300-slot HTCondor scheduling system with 4.5 PB of storage in continuous collaboration with Fermilab, CERN, and the Open Science Grid.
+- Redesigned the core network topology into a tiered model to minimize latency and increase redundancy for distributed scientific workflows.
+- Developed a state-of-the-art SDN testbed for testing scientific workflows via contributions to the ESnet project.
+- Deployed an R&D Ceph cluster for testing advanced storage features and contributing to the XrootD project.
+- Managed an annual hardware budget of $150k for cluster maintenance and refreshes.
+- Presented research and infrastructure work at Supercomputing, HEPiX, OSG/HTCondor Week, and NVIDIA GTC.
 
-### Systems Analyst, IT Operations Management
-**Duke University, Durham, North Carolina**
-*2011–2015*
+### Earlier Career
 
-- Principal Unix/Linux and network analyst on a small operations team that managed all university systems and applications.
-- Conducted change management, incident management, operations monitoring, and documentation for all enterprise applications.
-- Principal administrator for monitoring/metrics and mission critical 24/7 NOC alerting systems.
-- Acted as a liaison to the Network/VoIP engineering teams and technical advisor to academic, research, and business teams.
-- Coded large screen dashboard displays in Perl for ServiceNow, Tableau, CA Spectrum, and other APIs.
-- Led evaluation of monitoring and metrics products for 20k endpoint VoIP infrastructure.
+**Duke University, Durham, NC** — *2011–2015* — Principal Unix/Linux and network analyst on the IT Operations Management team. Owned monitoring, alerting, and change management across enterprise infrastructure; principal administrator for 24/7 NOC alerting systems and the 20k-endpoint VoIP environment.
 
-### Senior Technical Analyst
-**FedEx, Memphis, Tennessee**
-*2007–2011*
+**FedEx, Memphis, TN** — *2005–2011* — Senior Technical Analyst and Technical Analyst supporting Unix/Linux production systems for global logistics, SCADA infrastructure for lights-out sorting facilities, and the [www.fedex.com](https://www.fedex.com) distributed infrastructure. Started as Intern II in 2005 with the Systems Administration and Consulting group.
 
-- Provided production support for Unix/Linux sorting automation and command-and-control hosts.
-- Deployed and maintained highly available SCADA systems critical to global logistics operations.
-- Advised multiple teams on operating systems, DNS, web, monitoring, automation, and security.
-- Constructed monitoring and response solution for worldwide critical SCADA systems.
-- Designed and deployed systems for a new full-automated lights-out facility.
-- Supported 900MHz wireless and handheld device infrastructure.
-
-### Technical Analyst
-**FedEx, Memphis, Tennessee**
-*2005–2007*
-
-- Assisted with the day-to-day operation of the www.fedex.com distributed infrastructure.
-- Monitored production Linux/FreeBSD/Solaris systems across DMZ, ZMD, and backend.
-- Provided first level support for all fedex.com C and Java/Weblogic applications.
-- Organized and managed emergency technical conference bridges during incidents.
-
-### Intern II
-**FedEx, Memphis, Tennessee**
-*2005*
-
-- Interned with the Systems Administration and Consulting group.
-- Assisted with the implementation of new data center infrastructure.
-- Retired a legacy request queue system by migrating to a new one.
-
-### Contractor / College Student
-*2000–2005*
-
-- Evaluated, designed, and implemented a building network and wifi upgrade.
-- Constructed and maintained a new university departmental website.
-- Developed and deployed a business backup solution for critical data.
+**Contractor and college work, 2000–2005** — Building network and wifi upgrades, departmental websites, and a business backup solution for critical data.
 
 ---
 

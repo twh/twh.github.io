@@ -6,9 +6,14 @@ showTableOfContents: false
 showReadingTime: false
 ---
 
-Selected papers that are directly related to my work.
+Papers I co-authored and papers where I built the underlying production
+infrastructure. The two are intentionally separated — author lines and
+acknowledgements credit different kinds of work.
 
-## 2024
+## Acknowledgements
+
+Papers where I am credited for infrastructure contributions rather than
+listed as an author.
 
 ### Virchow2: Scaling Self-Supervised Mixed Magnification Models in Pathology
 **E. Zimmermann, S. Liu, et al.** · arXiv preprint, 2024
@@ -16,7 +21,7 @@ Selected papers that are directly related to my work.
 Three vision transformer foundation models — Virchow2 (632M),
 Virchow2G (1.9B), and Virchow2G Mini (22M distilled) — trained on
 3.1 million histopathology whole-slide images. State-of-the-art on
-12 tile-level tasks.
+12 tile-level tasks. Later published in *Nature Medicine*.
 
 *Contribution: Designed and operated the GPU compute infrastructure and high-throughput storage environment used to train and validate all three models.*
 
@@ -36,7 +41,9 @@ for computational pathology, jointly modeling histology and clinical text.
 [arXiv](https://arxiv.org/abs/2405.10254) ·
 [PDF](https://arxiv.org/pdf/2405.10254)
 
-## 2017
+## Co-authored
+
+Papers I co-authored from the Caltech CMS / Large Hadron Collider years.
 
 ### SDN-NGenIA: A Software Defined Next Generation Integrated Architecture for HEP and Data Intensive Science
 **J. Balcas, et al.** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)
@@ -59,7 +66,7 @@ characteristics against XrootD's native protocol.
 
 [PDF](/files/httpxrootd.pdf)
 
-## 2015
+---
 
 ### High Speed Scientific Data Transfers Using Software Defined Networking
 **H. Newman, et al.** · INDIS '15 (SC15), Austin, Texas

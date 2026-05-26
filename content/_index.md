@@ -1,20 +1,39 @@
 ---
 title: "Wayne Hendricks"
-description: "Principal HPC engineer. Built the training infrastructure behind Virchow2 and PRISM at Paige.AI / Tempus. Previously Caltech CMS Tier-2 for the LHC and Memorial Sloan Kettering."
+description: "Senior HPC Engineer at Tempus. Production training infrastructure for clinical and scientific foundation models. Paige.AI / Tempus, Caltech CMS Tier-2 for the LHC, Memorial Sloan Kettering."
 ---
 
-I built the GPU and storage infrastructure behind **Virchow2** and **PRISM** — state-of-the-art histopathology foundation models — as the sole HPC engineer at Paige.AI from 2018 through the company's $81M acquisition by [Tempus](https://www.tempus.com) in September 2025. I'm currently a Senior HPC Engineer at Tempus in New York City.
+Senior HPC Engineer at [Tempus](https://www.tempus.com), New York City.
+Production training infrastructure for clinical and scientific foundation
+models.
 
-Unusual combination: clinical-grade AI training infrastructure at Paige and Tempus, plus distributed scientific computing at scale from Caltech High Energy Physics and the CMS experiment at CERN's Large Hadron Collider. The kind of HPC engineer that frontier biological and scientific AI companies are looking for.
+## Now
 
-**Selected work**
+Continuing the HPC infrastructure role from Paige.AI through the September
+2025 Tempus acquisition. Migrating Paige's training and inference into
+Tempus's GCP environment while continuing to scale the existing Azure
+footprint — 7 PB of whole-slide imaging on Azure Managed Lustre, dynamic
+CycleCloud scale-out, 1.5M Slurm jobs in 2025.
 
-- Sole HPC engineer at Paige.AI from 2018 through the $81M Tempus acquisition. Scaled training infrastructure from 5 users to 40+ across Pascal, Volta, Ampere, and Hopper generations.
-- Built multi-cloud HPC across Azure and AWS with Lustre, Weka, and NetApp storage. Integrated Slurm, CycleCloud, Dask, and Prefect for automated foundation model training.
-- Principal administrator of the Caltech CMS Tier-2 cluster for the LHC: 7,300-slot HTCondor scheduler, 4.5 PB of storage, in production collaboration with Fermilab, CERN, and the Open Science Grid.
-- Built the DGX-1 AI/ML cluster at Memorial Sloan Kettering Cancer Center with Cisco RoCE and Pure Storage FlashBlade.
-- Helped fill the early engineering staff at Paige.AI through technical interviews from individual contributor to VP level.
+## Past systems
 
-**Expertise:** GPU Systems · Schedulers · High Performance Storage Systems · Multi-Cloud · Scientific Networking
+**Paige.AI**, 2018 – 2025. Sole HPC engineer through the $81M Tempus
+acquisition. The production training infrastructure behind
+[Virchow2](https://arxiv.org/abs/2408.00738) and
+[PRISM](https://arxiv.org/abs/2405.10254). Multi-cloud across Azure and
+AWS; scaled from Pascal/Volta on-prem GPUs through Ampere/Hopper systems
+and from 5 ML users to 40+.
 
-**Currently exploring principal or founding-engineering opportunities at AI/bio and scientific AI companies.** Reach me at [twh@waynehendricks.com](mailto:twh@waynehendricks.com).
+**Caltech CMS Tier-2**, 2015 – 2018. Principal administrator of one of
+the U.S. Tier-2 compute sites for the Compact Muon Solenoid experiment at
+CERN's Large Hadron Collider. 7,300-slot HTCondor cluster, 4.5 PB of
+storage, in production collaboration with Fermilab, CERN, and the Open
+Science Grid.
+
+**Memorial Sloan Kettering Cancer Center**, 2018 – 2022 (concurrent with
+Paige). 100-GPU NVIDIA DGX-1 with Cisco RoCE networking and Pure Storage
+FlashBlade.
+
+---
+
+[CV](/cv/) · [Publications](/publications/) · [About](/about/) · [twh@waynehendricks.com](mailto:twh@waynehendricks.com)

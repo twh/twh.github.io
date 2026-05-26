@@ -4,10 +4,35 @@ date: 2026-05-08
 showTableOfContents: false
 ---
 
-I built the GPU and storage infrastructure behind [Virchow2](https://arxiv.org/abs/2408.00738) and [PRISM](https://arxiv.org/abs/2405.10254) — two state-of-the-art histopathology foundation models — as the sole HPC engineer at Paige.AI from 2018 through the company's $81M acquisition by [Tempus](https://www.tempus.com) in September 2025. I'm currently a Senior HPC Engineer at Tempus in New York City, scaling the infrastructure through the integration into Tempus's broader oncology foundation model effort. The compute environment I operate executed 1.5M Slurm jobs in 2025 and manages 7 PB of whole-slide pathology imaging data.
+I keep large training runs alive.
 
-Before oncology AI, I was the principal administrator of the Caltech CMS Tier-2 — a 7,300-slot HTCondor cluster with 4.5 PB of storage supporting the Compact Muon Solenoid experiment at CERN's Large Hadron Collider. The combination is unusual: clinical-grade AI training infrastructure plus distributed scientific computing at extreme scale. It is, increasingly, the profile that frontier biological and scientific AI companies are looking for.
+For the last seven years that has meant pathology foundation models at
+Paige.AI and now Tempus. Before that, it meant the Compact Muon Solenoid
+experiment at CERN's Large Hadron Collider, where I ran the Caltech
+Tier-2 — one of the U.S. compute sites the physics collaboration depends
+on to reconstruct collision events. Before that, enterprise systems at
+Duke and Unix production at FedEx.
 
-I built the 100-GPU DGX-1 AI/ML cluster at Memorial Sloan Kettering Cancer Center and held systems engineering roles at Duke University and FedEx.
+The thread is not "AI" or "physics." It is production infrastructure for
+missions where the cost of a failed run is high — months of physicist
+time, or weeks of GPU-hours on a billion-parameter model. The skills
+transfer better than people assume. Scheduling, storage tiering, network
+fabric, observability, change management under pressure — the LHC people
+and the foundation-model people are solving the same problem at different
+scales of data and different shapes of compute.
 
-I'm currently exploring principal or founding-engineering opportunities at AI/bio and scientific AI companies. The best way to reach me is by [email](mailto:twh@waynehendricks.com).
+What I'm working on now is the migration of Paige's pathology training
+and inference into Tempus's GCP environment, while continuing to scale
+the existing Azure footprint. The interesting problems are around
+checkpoint resharding across heterogeneous fabrics, training reliability
+at multi-node scale, and storage architectures that can hold 7 PB of
+whole-slide imaging hot enough for randomized I/O during training.
+
+Outside Tempus I am most interested in the infrastructure layer of
+biological and scientific foundation models — autonomous wet-lab
+platforms, structural biology training pipelines, and the next generation
+of clinical AI where the data is larger than the model. If that is what
+you're building, [say hello](mailto:twh@waynehendricks.com).
+
+The [CV](/cv/) has the full chronology. Publications and acknowledgements
+[here](/publications/).

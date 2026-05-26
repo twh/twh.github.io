@@ -1,0 +1,43 @@
+{{/*
+  Extend-head: custom typography + JSON-LD Person schema.
+  Loaded automatically by Blowfish if present (see themes/blowfish/layouts/partials/head.html).
+*/}}
+
+{{/* Inter (body) + JetBrains Mono (code/metrics). */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  code, pre, kbd, samp, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+</style>
+
+{{/* JSON-LD Person schema. Identifiers live here machine-readably even though
+     they're only shown visually on the CV page. */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wayne Hendricks",
+  "url": "{{ .BaseURL }}",
+  "email": "mailto:twh@waynehendricks.com",
+  "jobTitle": "Senior HPC Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Tempus AI",
+    "url": "https://www.tempus.com"
+  },
+  "sameAs": [
+    "https://github.com/twh",
+    "https://scholar.google.com/citations?hl=en&user=R2H2QjwAAAAJ",
+    "https://orcid.org/0000-0001-9111-8968"
+  ]
+}
+</script>

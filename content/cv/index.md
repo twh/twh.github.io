@@ -6,6 +6,11 @@ showTableOfContents: true
 
 # Thomas Wayne Hendricks
 
+[GitHub](https://github.com/twh) ·
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=R2H2QjwAAAAJ) ·
+[ORCID](https://orcid.org/0000-0001-9111-8968) ·
+[twh@waynehendricks.com](mailto:twh@waynehendricks.com)
+
 ---
 
 ## Professional Summary

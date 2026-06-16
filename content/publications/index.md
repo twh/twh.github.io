@@ -6,22 +6,33 @@ showTableOfContents: false
 showReadingTime: false
 ---
 
-Papers I co-authored and papers where I built the underlying production
-infrastructure. The two are intentionally separated — author lines and
-acknowledgements credit different kinds of work.
-
 ## Acknowledgements
 
 Papers where I am credited for infrastructure contributions rather than
 listed as an author.
 
+### Virchow: A Million-Slide Digital Pathology Foundation Model
+**E. Vorontsov, et al.** · arXiv preprint, 2023
+
+A 632M-parameter self-supervised vision transformer for computational
+pathology, trained on a million-slide whole-slide image archive from
+Memorial Sloan Kettering Cancer Center. Later published in
+[*Nature Medicine*](https://www.nature.com/articles/s41591-024-03141-0) (2024).
+
+*Contribution: Built and operated the GPU compute infrastructure and high-throughput storage environment used to train and validate the model.*
+
+[arXiv](https://arxiv.org/abs/2309.07778) ·
+[PDF](https://arxiv.org/pdf/2309.07778)
+
+---
+
 ### Virchow2: Scaling Self-Supervised Mixed Magnification Models in Pathology
 **E. Zimmermann, S. Liu, et al.** · arXiv preprint, 2024
 
-Three vision transformer foundation models — Virchow2 (632M),
-Virchow2G (1.9B), and Virchow2G Mini (22M distilled) — trained on
-3.1 million histopathology whole-slide images. State-of-the-art on
-12 tile-level tasks. Later published in *Nature Medicine*.
+Three vision transformer foundation models trained on 3.1 million
+histopathology whole-slide images: Virchow2 (632M), Virchow2G (1.9B),
+and Virchow2G Mini (22M distilled). State-of-the-art on 12 tile-level
+tasks.
 
 *Contribution: Designed and operated the GPU compute infrastructure and high-throughput storage environment used to train and validate all three models.*
 
@@ -41,9 +52,25 @@ for computational pathology, jointly modeling histology and clinical text.
 [arXiv](https://arxiv.org/abs/2405.10254) ·
 [PDF](https://arxiv.org/pdf/2405.10254)
 
+---
+
+### PRISM2: Unlocking Multi-Modal General Pathology AI with Clinical Dialogue
+**E. Vorontsov, G. Shaikovski, A. Casson, et al.** · arXiv preprint, 2025
+
+A multi-modal slide-level pathology foundation model trained on 700,000
+diagnostic specimen-report pairs and 14M question-answer pairs, the
+largest vision-and-language histopathology dataset to date. Aligns
+histomorphologic features with diagnostic language via clinical-dialogue
+supervision.
+
+*Contribution: Built and maintained the HPC infrastructure supporting large-scale whole-slide image preprocessing, model training, and validation.*
+
+[arXiv](https://arxiv.org/abs/2506.13063) ·
+[PDF](https://arxiv.org/pdf/2506.13063)
+
 ## Co-authored
 
-Papers I co-authored from the Caltech CMS / Large Hadron Collider years.
+Papers I co-authored from the Caltech CMS / Large Hadron Collider era.
 
 ### SDN-NGenIA: A Software Defined Next Generation Integrated Architecture for HEP and Data Intensive Science
 **J. Balcas, et al.** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)

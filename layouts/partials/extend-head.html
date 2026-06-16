@@ -17,6 +17,19 @@
   code, pre, kbd, samp, .font-mono {
     font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   }
+
+  /* Homepage profile header — add breathing room between name, tagline,
+     contact rail, and the markdown content below. Scoped to article.h-full
+     which is unique to the Blowfish profile layout with showRecent=false. */
+  article.h-full > header > h1 {
+    margin-bottom: 0.75rem;
+  }
+  article.h-full > header > h2 {
+    margin-bottom: 1.25rem;
+  }
+  article.h-full > header {
+    margin-bottom: 2.5rem;
+  }
 </style>
 
 {{/* JSON-LD Person schema. Identifiers live here machine-readably even though

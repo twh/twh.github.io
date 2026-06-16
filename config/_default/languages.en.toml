@@ -3,14 +3,13 @@ locale = "en"
 weight = 1
 title = "Wayne Hendricks"
 
-[author]
-name = "Wayne Hendricks"
-# image = "img/profile.jpg"  # uncomment once a headshot is added at static/img/profile.jpg
-headline = "Principal HPC Engineer · Foundation Model Training Infrastructure"
-bio = "Sole HPC engineer at Paige.AI through the $81M Tempus acquisition. Built the GPU and storage infrastructure behind Virchow2 and PRISM. Previously Caltech CMS Tier-2 for the LHC and Memorial Sloan Kettering."
-# google-scholar and orcid are intentionally CV-only (see content/cv/index.md identifier rail).
-links = [
-  { github = "https://github.com/twh" },
-  { email = "mailto:twh@waynehendricks.com" },
-  { rss = "/index.xml" },
-]
+[params.author]
+  name = "Wayne Hendricks"
+  # image = "img/profile.jpg"  # uncomment once a headshot is added at static/img/profile.jpg
+  headline = "I build supercomputers and the ML training infrastructure behind foundation models."
+  bio = "Sole HPC engineer at Paige.AI through the $81M Tempus acquisition. Built the GPU and storage infrastructure behind Virchow and Virchow2. Previously Caltech CMS Tier-2 on the WLCG and Open Science Grid."
+  # google-scholar and orcid are intentionally CV-only (see content/cv/index.md identifier rail).
+  links = [
+    { github = "https://github.com/twh" },
+    { email = "mailto:twh@waynehendricks.com" },
+  ]

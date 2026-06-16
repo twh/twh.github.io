@@ -11,7 +11,7 @@ Currently integrating the Paige Azure stack into "Orion" on GCP.
 ## Past systems
 
 **Paige.AI**, 2018 – 2025. "Azul", a scalable Azure CycleCloud Slurm
-cluster with hundreds of GPUs and 7 PB of tiered storage. Production
+cluster with hundreds of GPUs and 7 PB of multi-modal data on tiered storage. Production
 training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 [Virchow2](https://arxiv.org/abs/2408.00738),
 [PRISM](https://arxiv.org/abs/2405.10254), and

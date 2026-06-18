@@ -22,7 +22,7 @@ an on-prem AI/ML cluster with 100 GPUs and 5 PB of pathology images
 in tiered storage. One of the first clusters with the newly released
 NVIDIA DGX GPU server platform.
 
-**[Caltech High Energy Physics](https://www.hep.caltech.edu/i.php?p=start.php)**, 2015 – 2018. "CMST2", a 7,300-slot HTCondor
+**[Caltech High Energy Physics](https://tier2.hep.caltech.edu)**, 2015 – 2018. "CMST2", a 7,300-slot HTCondor
 cluster with 4.5 PB of physics collision data in HDFS and Ceph. One of the seven major U.S. Tier-2 sites on the Worldwide LHC Computing
 Grid and the Open Science Grid, the largest global supercomputing
 infrastructure ever built.

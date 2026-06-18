@@ -39,6 +39,18 @@
     background-color: #f4ecd8; /* warm cream */
     color: #2b2b29;            /* warm near-black */
   }
+
+  /* Body links: the theme's prose link color sits very close to the body
+     text color, so links read as plain text. Make them bolder (no
+     underline) so they're distinctive while keeping the palette. Scoped
+     to .prose a so nav and the icon rail are untouched. */
+  .prose a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .prose a:hover {
+    color: rgba(var(--color-primary-700), 1);
+  }
 </style>
 
 {{/* JSON-LD Person schema. Identifiers live here machine-readably even though

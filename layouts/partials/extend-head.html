@@ -30,6 +30,15 @@
   article.h-full > header {
     margin-bottom: 2.5rem;
   }
+
+  /* Light-mode palette. Softens the stark pure-white background and
+     near-black text into an easier-on-the-eyes, professional pairing.
+     Scoped to html:not(.dark) so dark mode is untouched. Swap the two
+     values below to change the look (alternatives noted in comments). */
+  html:not(.dark) body {
+    background-color: #f4ecd8; /* warm cream */
+    color: #2b2b29;            /* warm near-black */
+  }
 </style>
 
 {{/* JSON-LD Person schema. Identifiers live here machine-readably even though

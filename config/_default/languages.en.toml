@@ -8,8 +8,9 @@ title = "Wayne Hendricks"
   # image = "img/profile.jpg"  # uncomment once a headshot is added at static/img/profile.jpg
   headline = "I build supercomputers and the training infrastructure behind foundation models."
   bio = "Sole HPC engineer at Paige.AI through the $81M Tempus acquisition. Built the GPU and storage infrastructure behind Virchow and Virchow2. Previously Caltech CMS Tier-2 on the WLCG and Open Science Grid."
-  # google-scholar and orcid are intentionally CV-only (see content/cv/index.md identifier rail).
   links = [
-    { github = "https://github.com/twh" },
     { email = "mailto:twh@waynehendricks.com" },
+    { github = "https://github.com/twh" },
+    { google-scholar = "https://scholar.google.com/citations?hl=en&user=R2H2QjwAAAAJ" },
+    { orcid = "https://orcid.org/0000-0001-9111-8968" },
   ]

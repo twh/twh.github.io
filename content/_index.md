@@ -6,7 +6,7 @@ description: "Senior HPC Engineer at Tempus. Production training infrastructure 
 ## What I'm Up To Lately
 
 GPU systems on GCP for clinical-grade computational pathology models at [Tempus](https://www.tempus.com).
-Currently integrating the Paige Azure stack into "Orion" on GCP.
+Currently migrating Azure training infrastructure to GCP.
 
 ## Past systems
 

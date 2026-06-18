@@ -19,8 +19,10 @@ training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 
 **[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group/hpc-computing)**, 2018 – 2022. "Genesys",
 an on-prem AI/ML cluster with 100 GPUs and 5 PB of pathology images
-in tiered storage. One of the first clusters with the newly released
-NVIDIA DGX GPU server platform.
+in tiered storage. The first cluster with the newly released
+NVIDIA DGX-1 Volta GPU server platform at a cancer center, a
+collaboration between the Fuchs Lab and their newly founded spinoff,
+Paige.
 
 **[Caltech High Energy Physics](https://tier2.hep.caltech.edu)**, 2015 – 2018. "CMST2", a 7,300-slot HTCondor
 cluster with 4.5 PB of physics collision data in HDFS and Ceph. One of the seven major U.S. Tier-2 sites on the Worldwide LHC Computing

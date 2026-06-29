@@ -10,7 +10,7 @@ Currently migrating Azure training infrastructure to GCP.
 
 ## Past systems
 
-**[Paige.AI](https://paige.ai)**, 2018 – 2025. "Azul", a scalable Azure CycleCloud Slurm
+**[Paige.AI](https://paige.ai)**, 2022 – 2025. "Azul", a scalable Azure CycleCloud Slurm
 cluster with hundreds of GPUs and 7 PB of multi-modal data on tiered storage. Production
 training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 [Virchow2](https://arxiv.org/abs/2408.00738),

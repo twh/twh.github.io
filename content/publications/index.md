@@ -68,6 +68,21 @@ supervision.
 [arXiv](https://arxiv.org/abs/2506.13063) ·
 [PDF](https://arxiv.org/pdf/2506.13063)
 
+---
+
+### Screen Them All: High-Throughput Pan-Cancer Genetic and Phenotypic Biomarker Screening from H&E Whole Slide Images
+**Y. K. Wang, L. Tydlitatova, J. D. Kunz, et al.** · arXiv preprint, 2024
+
+OmniScreen, a high-throughput system predicting a broad range of
+clinically relevant molecular biomarkers across cancers from H&E
+whole-slide images, built on Virchow2 embeddings from 60,529 patients
+with paired MSK-IMPACT panels.
+
+*Contribution: Built and maintained the HPC infrastructure supporting large-scale whole-slide image preprocessing, embedding generation, model training, and validation.*
+
+[arXiv](https://arxiv.org/abs/2408.09554) ·
+[PDF](https://arxiv.org/pdf/2408.09554)
+
 ## Co-authored
 
 Papers I co-authored from the Caltech CMS / Large Hadron Collider era.

@@ -8,8 +8,7 @@ showReadingTime: false
 
 ## Acknowledgements
 
-Papers where I am credited for infrastructure contributions rather than
-listed as an author.
+Papers where I am credited for infrastructure contributions.
 
 ### Virchow: A Million-Slide Digital Pathology Foundation Model
 **E. Vorontsov, et al.** · arXiv preprint, 2023
@@ -83,6 +82,19 @@ with paired MSK-IMPACT panels.
 [arXiv](https://arxiv.org/abs/2408.09554) ·
 [PDF](https://arxiv.org/pdf/2408.09554)
 
+---
+
+### High Speed Scientific Data Transfers Using Software Defined Networking
+**H. Newman, et al.** · INDIS '15 (SC15), Austin, Texas
+
+Second Workshop on Innovating the Network for Data-Intensive Science,
+co-located with SC15: The International Conference for High Performance
+Computing, Networking, Storage and Analysis.
+
+*Contribution: Built and operated the SDN testbed and high-speed data-transfer infrastructure used in the demonstrations.*
+
+[PDF](/files/INDIS2015.pdf)
+
 ## Co-authored
 
 Papers I co-authored from the Caltech CMS / Large Hadron Collider era.
@@ -107,14 +119,3 @@ Anytime Anywhere (AAA) project, comparing performance and operational
 characteristics against XrootD's native protocol.
 
 [PDF](/files/httpxrootd.pdf)
-
----
-
-### High Speed Scientific Data Transfers Using Software Defined Networking
-**H. Newman, et al.** · INDIS '15 (SC15), Austin, Texas
-
-Second Workshop on Innovating the Network for Data-Intensive Science,
-co-located with SC15: The International Conference for High Performance
-Computing, Networking, Storage and Analysis.
-
-[PDF](/files/INDIS2015.pdf)

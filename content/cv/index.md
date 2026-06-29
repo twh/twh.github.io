@@ -15,7 +15,7 @@ showTableOfContents: true
 
 ## Professional Summary
 
-Principal HPC engineer specializing in foundation model training infrastructure for clinical and scientific AI. Currently a Senior HPC Engineer at Tempus in New York City, where I lead GPU and storage infrastructure behind histopathology foundation models. Joined Tempus through the September 2025 $81M acquisition of Paige.AI, where I had been the sole HPC engineer from 2022 through the acquisition, scaling the company from 5 to 40+ ML users and helping fill the early engineering staff. Previously principal administrator of the Caltech CMS Tier-2 cluster for the Large Hadron Collider, operating 7,300 HTCondor slots and 4.5 PB of storage in production collaboration with CERN, Fermilab, and the Open Science Grid.
+Principal HPC engineer specializing in foundation model training infrastructure for clinical and scientific AI. Currently a Senior HPC Engineer at Tempus where I lead GPU and storage infrastructure behind histopathology foundation models. Joined Tempus through the September 2025 $81M acquisition of Paige.AI, where I had been the sole HPC engineer from 2018 through the acquisition, scaling the company from 5 to 40+ ML users and helping fill the early engineering staff. Previously principal administrator of the Caltech CMS Tier-2 cluster for the Large Hadron Collider, operating 7,300 HTCondor slots and 4.5 PB of storage in production collaboration with CERN, Fermilab, and the Open Science Grid.
 
 Distinctive combination of regulated clinical AI infrastructure (FDA-cleared products built on top of systems I designed) and distributed scientific computing at extreme scale (one of the largest production HTCondor deployments in academic physics). Looking for principal or founding-engineering roles at AI/bio companies advancing scientific and biological foundation models, autonomous lab platforms, or frontier-scale training infrastructure.
 
@@ -23,9 +23,9 @@ Distinctive combination of regulated clinical AI infrastructure (FDA-cleared pro
 
 ## Selected Achievements
 
-- Sole HPC engineer at Paige.AI (2022–2025) through the $81M acquisition by Tempus AI in September 2025.
-- Built the GPU and storage infrastructure behind the [Virchow](https://arxiv.org/abs/2309.07778), [Virchow2](https://arxiv.org/abs/2408.00738), [PRISM](https://arxiv.org/abs/2405.10254), and [PRISM2](https://arxiv.org/abs/2506.13063) histopathology foundation models.
-- Acknowledged infrastructure contributor in the [Virchow](https://arxiv.org/abs/2309.07778) (arXiv, 2023; later published in [*Nature Medicine*](https://www.nature.com/articles/s41591-024-03141-0)) and [Virchow2](https://arxiv.org/abs/2408.00738) (arXiv, 2024) preprints.
+- Sole HPC engineer at Paige.AI (2018–2025) through the $81M acquisition by Tempus AI in September 2025.
+- Built the GPU and storage infrastructure behind the [Virchow](https://arxiv.org/abs/2309.07778), [Virchow2](https://arxiv.org/abs/2408.00738), [PRISM](https://arxiv.org/abs/2405.10254), and [PRISM2](https://arxiv.org/abs/2506.13063) histopathology foundation models and the [OmniScreen](https://arxiv.org/abs/2408.09554) biomarker screening system.
+- Acknowledged infrastructure contributor in the [Virchow](https://arxiv.org/abs/2309.07778) (arXiv, 2023; later published in [*Nature Medicine*](https://www.nature.com/articles/s41591-024-03141-0)) and [Virchow2](https://arxiv.org/abs/2408.00738) (arXiv, 2024) vision foundation models and the [PRISM](https://arxiv.org/abs/2405.10254) and [PRISM2](https://arxiv.org/abs/2506.13063) generative models.
 - Scaled clinical AI training infrastructure across four NVIDIA generations: Pascal, Volta, Ampere, and Hopper.
 - Designed and operated multi-cloud HPC environments on Azure and AWS with Lustre, Weka, and NetApp storage.
 - Principal administrator of the Caltech CMS Tier-2 cluster for the LHC: 7,300 HTCondor slots, 4.5 PB of storage.
@@ -38,10 +38,10 @@ Distinctive combination of regulated clinical AI infrastructure (FDA-cleared pro
 
 ### Senior HPC Engineer
 **Tempus AI (formerly Paige.AI), New York City**
-*2022–Present*
+*2018–Present*
 
-- **Sole HPC engineer at Paige.AI from 2022 through the September 2025 Tempus acquisition.** Owned end-to-end GPU, storage, scheduling, and multi-cloud infrastructure for clinical foundation model training.
-- Built and scaled the GPU training infrastructure behind the Virchow, Virchow2, PRISM, and PRISM2 histopathology foundation models.
+- **Sole HPC engineer at Paige.AI from 2018 through the September 2025 Tempus acquisition.** Owned end-to-end GPU, storage, scheduling, and multi-cloud infrastructure for clinical foundation model training.
+- Built and scaled the GPU training infrastructure behind the Virchow, Virchow2, PRISM, and PRISM2 histopathology foundation models and the OmniScreen biomarker screening system.
 - Architected a dynamic Azure CycleCloud cluster that scales on-demand to hundreds of GPU nodes; executed 1.5M Slurm jobs in 2025.
 - Managed 7 PB of whole-slide image data in Azure Blob Storage fronted by Azure Managed Lustre for high-throughput training I/O.
 - Scaled training infrastructure from 5 to 40+ ML users while moving from Pascal/Volta on-prem GPUs to Ampere/Hopper systems across Azure and AWS.
@@ -52,7 +52,7 @@ Distinctive combination of regulated clinical AI infrastructure (FDA-cleared pro
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**
-*2018–2022*
+*2018–2022 (concurrent with Paige.AI)*
 
 - Designed and built a 100-GPU DGX-1 cluster with Cisco RoCE networking and Pure Storage FlashBlade for high-throughput AI/ML workloads.
 - Served as an engineering consultant resource to the Research Computing and HPC teams.

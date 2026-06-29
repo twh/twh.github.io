@@ -14,8 +14,9 @@ Currently migrating Azure training infrastructure to GCP.
 cluster with hundreds of GPUs and 7 PB of multi-modal data on tiered storage. Production
 training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 [Virchow2](https://arxiv.org/abs/2408.00738),
-[PRISM](https://arxiv.org/abs/2405.10254), and
-[PRISM2](https://arxiv.org/abs/2506.13063).
+[PRISM](https://arxiv.org/abs/2405.10254),
+[PRISM2](https://arxiv.org/abs/2506.13063), and
+[OmniScreen](https://arxiv.org/abs/2408.09554).
 
 **[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group/hpc-computing)**, 2018 – 2022. "Genesys",
 an on-prem AI/ML cluster with 100 GPUs and 5 PB of pathology images

@@ -17,7 +17,7 @@ showTableOfContents: true
 
 Principal HPC engineer specializing in foundation model training infrastructure for clinical and scientific AI. Currently a Senior HPC Engineer at Tempus where I lead GPU and storage infrastructure behind histopathology foundation models. Joined Tempus through the September 2025 $81M acquisition of Paige.AI, where I had been the sole HPC engineer from 2018 through the acquisition, scaling the company from 5 to 40+ ML users and helping fill the early engineering staff. Previously principal administrator of the Caltech CMS Tier-2 cluster for the Large Hadron Collider, operating 7,300 HTCondor slots and 4.5 PB of storage in production collaboration with CERN, Fermilab, and the Open Science Grid.
 
-Distinctive combination of regulated clinical AI infrastructure (FDA-cleared products built on top of systems I designed) and distributed scientific computing at extreme scale (one of the largest production HTCondor deployments in academic physics). Looking for principal or founding-engineering roles at AI/bio companies advancing scientific and biological foundation models, autonomous lab platforms, or frontier-scale training infrastructure.
+Distinctive combination of regulated clinical AI infrastructure (FDA-cleared products built on top of systems I designed) and distributed scientific computing at extreme scale (one of the largest production HTCondor deployments in academic physics). Interested in principal or founding-engineering roles at AI/bio companies advancing scientific and biological foundation models, autonomous lab platforms, or frontier-scale training infrastructure.
 
 ---
 
@@ -74,29 +74,29 @@ Distinctive combination of regulated clinical AI infrastructure (FDA-cleared pro
 
 ### Earlier Career
 
-**Duke University, Durham, NC** — *2011–2015* — Principal Unix/Linux and network analyst on the IT Operations Management team. Owned monitoring, alerting, and change management across enterprise infrastructure; principal administrator for 24/7 NOC alerting systems and the 20k-endpoint VoIP environment.
+**Duke University, Durham, NC** — *2011–2015* — Principal Unix/Linux and network analyst on the IT Operations Management team. Owned monitoring, alerting, and change management across all academic and enterprise infrastructure; principal administrator for application performance and 24/7 NOC alerting systems.
 
 **FedEx, Memphis, TN** — *2005–2011* — Senior Technical Analyst and Technical Analyst supporting Unix/Linux production systems for global logistics, SCADA infrastructure for lights-out sorting facilities, and the [www.fedex.com](https://www.fedex.com) distributed infrastructure. Started as Intern II in 2005 with the Systems Administration and Consulting group.
 
-**Contractor and college work, 2000–2005** — Building network and wifi upgrades, departmental websites, and a business backup solution for critical data.
+**Contractor and university work, 2000–2005** — Building network and wifi upgrades, departmental websites, and a business backup solution for critical data.
 
 ---
 
-## Technical Experience
+## Technical Expertise
 
 | Category | Technologies |
 |---|---|
-| **Schedulers** | Slurm, HTCondor, Kueue, OpenMPI, NVIDIA tools |
+| **Schedulers / Frameworks** | Slurm, Kueue, HTCondor, SGE |
 | **GPU / Compute** | NVIDIA DGX, Cisco UCS, Supermicro, Dell, HP Proliant |
 | **Storage** | Lustre, Weka, GPFS, Ceph, ZFS, DRBD, Gluster, HDFS, NetApp, Qumulo, Pure |
-| **Cloud** | Azure, AWS, GCP, VMware, KVM/libvirt, OpenStack |
+| **Cloud / Virtualization** | Azure, AWS, GCP, VMware, KVM/libvirt, OpenStack |
 | **Networking** | Mellanox, Cisco NXOS/IOS, Arista, Dell/Force10, EdgeCore/whitebox, DOCA, NCCL |
 | **IaC / Config** | Terraform, Packer, Ansible, Puppet, Salt, Git, GitHub, GitLab |
 | **Monitoring** | Prometheus, Grafana, InfluxDB, DataDog, Ganglia, Nagios, PagerDuty, SumoLogic |
-| **OS** | RHEL/Rocky/Alma, FreeBSD, Ubuntu, Oracle/Sun Solaris, macOS |
+| **OS** | Ubuntu, RHEL/Rocky/Alma, FreeBSD, Solaris, macOS |
 | **Security / IdM** | SSSD, OpenLDAP, Okta, SentinelOne, nftables/pf, CIS Hardening |
-| **Languages** | Python, Bash/shell, Perl, Ruby |
-| **IDEs / Coding Tools** | Codex, Claude Code, Cursor, VS Code |
+| **Languages** | Bash/shell, Python, Perl, Ruby |
+| **IDEs / Coding Tools** | Claude Code, Codex, Cursor, VS Code |
 
 ---
 

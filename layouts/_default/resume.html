@@ -1,0 +1,112 @@
+{{- /*
+  Standalone, print-optimized, ATS-friendly rendering of the CV + Publications.
+  Deliberately does NOT use the site chrome: no nav, no theme fonts, no tables,
+  single column, standard headings, text-selectable output.
+
+  "Download PDF" triggers the browser's print dialog; Save as PDF produces a
+  text-based (not scanned) PDF, which is what Workday / Greenhouse / Lever parse.
+*/ -}}
+{{- $cv := .Site.GetPage "/cv" -}}
+{{- $pubs := .Site.GetPage "/publications" -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Site.Params.Author.name }} — Resume</title>
+<meta name="description" content="{{ .Site.Params.Author.bio }}">
+{{- with .Site.Params.keywords }}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{- end }}
+<link rel="canonical" href="{{ "cv/" | absURL }}">
+<style>
+  /* ATS-safe: single column, standard fonts, no floats, no multi-column. */
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #111;
+    background: #fff;
+    max-width: 7.5in;
+    margin: 0 auto;
+    padding: 0.5in 0.6in 1in;
+  }
+  h1 { font-size: 20pt; margin: 0 0 .1in; letter-spacing: .01em; }
+  h2 {
+    font-size: 12.5pt;
+    margin: .28in 0 .08in;
+    padding-bottom: .03in;
+    border-bottom: 1px solid #999;
+    text-transform: none;
+  }
+  h3 { font-size: 11.5pt; margin: .18in 0 .02in; }
+  p, li { margin: .05in 0; }
+  ul { margin: .05in 0 .05in .25in; padding-left: .15in; }
+  li { margin-bottom: .04in; }
+  a { color: #111; text-decoration: none; }
+  hr { display: none; }               /* markdown rules add noise in print */
+  table { display: none; }            /* belt and braces: never emit tables */
+  /* Blowfish renders heading anchor links ("#") that are hidden by Tailwind on
+     the site. Tailwind is not loaded here, so hide them explicitly. */
+  a[aria-label="Anchor"], .anchor { display: none !important; }
+  .contact { margin: 0 0 .05in; font-size: 10.5pt; }
+  .contact a { text-decoration: none; }
+  .skills-line { margin: .06in 0; }
+  .toolbar {
+    max-width: 7.5in; margin: .3in auto 0; padding: 0 .6in;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .toolbar button, .toolbar a.back {
+    font: inherit; font-size: 10.5pt; cursor: pointer;
+    padding: .5em 1em; margin-right: .5em;
+    border: 1px solid #999; border-radius: 4px;
+    background: #f4f4f4; color: #111; text-decoration: none; display: inline-block;
+  }
+  .toolbar button:hover { background: #e8e8e8; }
+  .hint { font-size: 9.5pt; color: #666; margin-top: .5em; }
+
+  @media print {
+    .toolbar { display: none !important; }
+    body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; }
+    h2 { page-break-after: avoid; }
+    h3 { page-break-after: avoid; }
+    li, p { page-break-inside: avoid; }
+    a { color: #111; }
+    @page { margin: 0.6in; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <button type="button" onclick="window.print()">Download PDF</button>
+  <a class="back" href="{{ "cv/" | relURL }}">Back to CV</a>
+  <div class="hint">Opens your browser's print dialog. Choose <strong>Save as PDF</strong> for a text-based file that applicant tracking systems can parse.</div>
+</div>
+
+<h1>{{ .Site.Params.Author.name }}</h1>
+<p class="contact">
+  <a href="mailto:twh@waynehendricks.com">twh@waynehendricks.com</a> ·
+  <a href="{{ .Site.BaseURL }}">waynehendricks.com</a> ·
+  <a href="https://github.com/twh">github.com/twh</a> ·
+  <a href="https://orcid.org/0000-0001-9111-8968">ORCID 0000-0001-9111-8968</a>
+</p>
+
+{{/* One source of truth: pull the CV body, then trim the parts this layout
+     supplies itself. Drop everything before the Summary heading (the CV's own
+     name + identifier rail, duplicated above) and everything from the CV's
+     Publications pointer onward (the full list is appended below). */}}
+{{- $body := $cv.Content -}}
+{{- $body = replaceRE `(?s)^.*?(<h2[^>]*>\s*Summary)` "$1" $body -}}
+{{- $body = replaceRE `(?s)<hr>\s*<h2[^>]*>\s*Publications.*$` "" $body -}}
+{{ $body | safeHTML }}
+
+{{/* Keywords live in the PDF document properties (see .github/scripts/pdf_meta.py),
+     not in the visible body. The printed page stays identical to the web CV. */}}
+
+<h2>Publications</h2>
+{{ $pubs.Content }}
+
+</body>
+</html>

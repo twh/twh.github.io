@@ -1,6 +1,6 @@
 ---
 title: "Wayne Hendricks"
-description: "Senior HPC Engineer at Tempus. Production training infrastructure for clinical and scientific foundation models. Paige.AI / Tempus, Caltech CMS Tier-2, Open Science Grid, WLCG."
+description: "I build supercomputers and the training infrastructure behind foundation models. Paige.AI's founding HPC engineer through its $81M acquisition by Tempus, building the infrastructure behind the Virchow and PRISM pathology models. Previously the Caltech CMS Tier-2 for the LHC."
 ---
 
 ## What I'm Up To Lately
@@ -18,7 +18,7 @@ training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 [PRISM2](https://arxiv.org/abs/2506.13063), and
 [OmniScreen](https://arxiv.org/abs/2408.09554).
 
-**[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group/hpc-computing)**, 2018 – 2022. "Genesys",
+**[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group/hpc-computing)**, 2018 – 2022. "Pathfinder",
 an on-prem AI/ML cluster with 100 GPUs and 5 PB of pathology images
 in tiered storage. The first cluster with the newly released
 NVIDIA DGX-1 Volta GPU server platform at a cancer center, a
@@ -27,8 +27,8 @@ Paige.
 
 **[Caltech High Energy Physics](https://tier2.hep.caltech.edu)**, 2015 – 2018. "CMST2", a 7,300-slot HTCondor
 cluster with 4.5 PB of physics collision data in HDFS and Ceph. One of the seven major U.S. Tier-2 sites on the Worldwide LHC Computing
-Grid and the Open Science Grid, the largest global supercomputing
-infrastructure ever built.
+Grid and the Open Science Grid, the world's largest distributed
+computing grid.
 
 ---
 

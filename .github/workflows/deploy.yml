@@ -45,6 +45,27 @@ jobs:
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # Render the print view of the CV + Publications to a real PDF and stamp
+      # the document properties (Title/Author/Subject/Keywords) that applicant
+      # tracking systems read. Regenerated on every push so it cannot go stale.
+      - name: Generate resume PDF
+        run: |
+          python3 -m pip install --quiet --upgrade pypdf
+          (cd public && python3 -m http.server 8899 >/dev/null 2>&1 &)
+          for i in $(seq 1 20); do
+            curl -sf http://127.0.0.1:8899/resume/ >/dev/null && break
+            sleep 0.5
+          done
+          google-chrome --headless=new --disable-gpu --no-sandbox \
+            --print-to-pdf=/tmp/resume_raw.pdf --no-pdf-header-footer \
+            --virtual-time-budget=10000 \
+            "http://127.0.0.1:8899/resume/"
+          mkdir -p public/files
+          python3 .github/scripts/pdf_meta.py \
+            public/resume/index.html /tmp/resume_raw.pdf \
+            public/files/wayne-hendricks-cv.pdf
+          ls -la public/files/wayne-hendricks-cv.pdf
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

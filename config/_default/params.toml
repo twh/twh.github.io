@@ -8,6 +8,96 @@ showAppearanceSwitcher = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
+# Meta keywords. Not visible on the page; read by search engines, AI crawlers,
+# and LLM-based talent sourcing tools. Keep to things that are actually true.
+keywords = [
+  # Roles and domains
+  "HPC engineer", "high performance computing", "AI infrastructure",
+  "AI training infrastructure", "ML infrastructure", "MLOps", "GPU infrastructure",
+  "GPU cluster", "supercomputer", "supercomputing", "foundation models",
+  "foundation model training", "distributed training", "large scale training",
+  "model training infrastructure", "inference infrastructure",
+  "principal engineer", "founding engineer", "staff engineer",
+  "infrastructure architect", "platform engineering", "research computing",
+  # GPU and accelerators
+  "NVIDIA DGX", "DGX-1", "DGX SuperPOD", "Pascal", "Volta", "Ampere", "Hopper",
+  "Blackwell", "V100", "A10", "A100", "H100", "GB200", "CUDA", "NCCL", "DOCA",
+  "NVLink", "NVSwitch", "GPUDirect RDMA", "RDMA", "InfiniBand", "RoCE",
+  "Mellanox", "Arista", "Cisco NX-OS", "Cisco UCS", "Supermicro", "whitebox networking",
+  # Training and ML frameworks supported
+  "PyTorch", "DDP", "FSDP", "distributed checkpointing", "Ray", "Dask", "Prefect",
+  "NeMo", "Megatron", "Nemotron", "Triton", "vLLM", "model parallelism",
+  "data parallelism", "training reliability", "checkpoint resharding",
+  # Scheduling and orchestration
+  "Slurm", "Azure CycleCloud", "HTCondor", "Kueue", "Kubernetes", "SGE",
+  "job scheduling", "workload orchestration", "batch computing", "queueing",
+  # Storage
+  "Lustre", "Azure Managed Lustre", "Weka", "GPFS", "Ceph", "ZFS", "HDFS",
+  "NetApp", "Pure Storage", "FlashBlade", "Qumulo", "Gluster", "DRBD",
+  "S3", "Azure Blob Storage", "object storage", "parallel file systems",
+  "petabyte scale storage", "tiered storage", "data archival", "high throughput I/O",
+  # Cloud and infrastructure as code
+  "Azure", "AWS", "GCP", "Google Cloud", "multi-cloud", "hybrid cloud",
+  "cloud migration", "Terraform", "Packer", "Ansible", "Puppet", "Salt",
+  "infrastructure as code", "KVM", "libvirt", "VMware", "OpenStack",
+  "datacenter design", "capacity planning",
+  # Observability, security, identity
+  "Prometheus", "Grafana", "InfluxDB", "DataDog", "Ganglia", "Nagios",
+  "PagerDuty", "SumoLogic", "observability", "monitoring", "alerting",
+  "SSSD", "OpenLDAP", "Okta", "SentinelOne", "nftables", "pf", "CIS hardening",
+  # Operating systems, languages, tooling
+  "Linux", "RHEL", "Rocky Linux", "AlmaLinux", "Ubuntu", "FreeBSD", "Solaris",
+  "Python", "Bash", "shell scripting", "Perl", "Ruby", "Git", "GitHub", "GitLab",
+  "Claude Code", "Codex", "Cursor", "VS Code", "automation",
+  # Debugging and performance
+  "strace", "ltrace", "perf", "sysdig", "lsof", "dtrace", "eBPF", "bpftrace",
+  "ftrace", "syscall tracing", "performance debugging", "systems debugging",
+  "performance tuning", "network performance", "latency optimization",
+  # Science and clinical domain
+  "scientific computing", "high energy physics", "grid computing",
+  "computational pathology", "digital pathology", "histopathology",
+  "whole-slide imaging", "vision transformers", "self-supervised learning",
+  "multimodal models", "biomarker screening", "clinical AI", "medical AI",
+  "oncology AI", "FDA-cleared", "regulated environments", "HIPAA",
+  # Named work, models, organizations
+  "Virchow", "Virchow2", "PRISM", "PRISM2", "OmniScreen", "Nature Medicine",
+  "Azul", "Pathfinder", "CMST2", "Orion", "Paige.AI", "Tempus", "Fuchs Lab",
+  "Memorial Sloan Kettering", "MSKCC", "MSK-IMPACT", "Caltech", "CERN", "LHC",
+  "CMS experiment", "Compact Muon Solenoid", "Worldwide LHC Computing Grid",
+  "WLCG", "Open Science Grid", "OSG", "Fermilab", "Tier-2", "XrootD",
+  "software defined networking", "SDN", "ESnet", "SCADA", "Duke University", "FedEx",
+  # Conferences and community
+  "Supercomputing", "SC", "HEPiX", "HTCondor Week", "CHEP", "INDIS", "NVIDIA GTC", "ISC",
+  "Duke TechExpo",
+  # Additional roles and titles
+  "Research Engineer", "Senior Advisor", "Systems Analyst", "Technical Analyst",
+  "Solutions Architect", "Site Reliability Engineering", "SRE", "DevOps",
+  # Networking, protocols, and analysis
+  "TCP/IP", "nmap", "Wireshark", "tcpdump", "DNS", "VoIP", "NOC", "network topology",
+  "core network design", "redundancy", "low latency networking", "Ubiquiti",
+  "SonicOS", "Dell Force10", "EdgeCore", "900MHz wireless", "UHF", "VHF",
+  "LXE", "Motorola", "RF systems", "handheld device infrastructure",
+  # Security and identity
+  "iptables", "BSD Packet Filter", "Nessus", "hostapd", "Shibboleth",
+  "vulnerability scanning", "firewall", "security hardening",
+  # Monitoring and enterprise ops
+  "RRDtool", "Cacti", "HP OpenView", "CA Spectrum", "ServiceNow", "Tableau",
+  "change management", "incident management", "operations monitoring",
+  "capacity monitoring", "dashboards", "24/7 operations",
+  # Web, application, and legacy stack
+  "Apache", "NGINX", "Squid", "Jekyll", "WordPress", "XHTML", "CSS",
+  "Java", "WebLogic", "C", "OpenMPI", "MPI",
+  # Systems and hardware
+  "CentOS", "Rocky Linux", "macOS", "Windows", "Oracle Solaris", "Sun Sparc",
+  "HP Proliant", "Dell servers", "Raspberry Pi", "bare metal provisioning",
+  "hardware procurement", "datacenter leasing", "server lifecycle",
+  # Domain and process
+  "technical interviewing", "engineering hiring", "team building",
+  "budget management", "vendor management", "research computing support",
+  "scientific workflows", "data intensive science", "data transfer",
+  "high throughput computing", "batch scheduling", "cluster administration",
+]
+
 [homepage]
 layout = "profile"
 showRecent = false

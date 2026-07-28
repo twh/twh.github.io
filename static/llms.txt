@@ -1,0 +1,91 @@
+# Wayne Hendricks
+
+> HPC engineer who builds supercomputers and the training infrastructure behind
+> foundation models. Founding HPC engineer at Paige.AI from 2018 through its $81M
+> acquisition by Tempus in 2025, where he built the GPU, storage, and scheduling
+> infrastructure behind the Virchow and PRISM pathology foundation models and the
+> company's FDA-cleared diagnostic products. Previously principal administrator of
+> the Caltech CMS Tier-2 for the Large Hadron Collider. Based in New York City.
+> Contact: twh@waynehendricks.com
+
+## Current role
+
+Senior HPC Engineer at Tempus AI (New York City), 2018–present, continuing through
+the September 2025 acquisition of Paige.AI. Runs GPU systems on GCP for
+clinical-grade computational pathology models and is migrating the Paige Azure
+training stack into Tempus's GCP environment.
+
+## Systems built
+
+- **Azul** (Paige.AI, 2022–2025). Scalable Azure CycleCloud and Slurm cluster,
+  hundreds of GPUs, 7 PB of multi-modal data on tiered storage, 1.5M jobs run in
+  2025. The production training environment behind Virchow, Virchow2, PRISM,
+  PRISM2, and OmniScreen.
+- **Pathfinder** (Memorial Sloan Kettering Cancer Center, 2018–2022). On-prem
+  NVIDIA DGX-1 Volta AI/ML cluster, 100 GPUs, 5 PB of pathology images in tiered
+  storage. The first DGX-1 Volta cluster at a cancer center, a collaboration
+  between the Fuchs Lab and its spinoff, Paige.
+- **CMST2** (Caltech High Energy Physics, 2015–2018). 7,300-slot HTCondor cluster
+  with 4.5 PB of physics collision data. One of the seven major U.S. Tier-2 sites
+  on the Worldwide LHC Computing Grid and the Open Science Grid, the world's
+  largest distributed computing grid.
+
+## Expertise
+
+GPU cluster architecture across NVIDIA Pascal, Volta, Ampere, Hopper, and
+Blackwell. Slurm, Azure CycleCloud, HTCondor, Kueue, and Kubernetes for scheduling
+and orchestration. InfiniBand, RoCE, NVLink/NVSwitch, GPUDirect RDMA, NCCL, and
+DOCA for high-performance fabrics. Lustre, Weka, GPFS, NetApp, Pure, and S3/Blob
+for high performance storage and data archival at petabyte scale. Azure, AWS, and
+GCP with Terraform, Packer, and Ansible. Network performance and systems debugging
+on Linux, and automation with mostly shell and Python.
+
+Supports and debugs the full training and inference stack that ML researchers run
+on these systems, including PyTorch (DDP and FSDP), distributed checkpointing and
+checkpoint resharding, Ray, Dask, Prefect, NeMo, Megatron, Triton, and vLLM, along
+with CUDA, NCCL, and the collective-communication and fabric layers underneath
+them. Day-to-day debugging with strace, ltrace, perf, sysdig, lsof, dtrace, and
+eBPF/bpftrace. Earlier infrastructure work spans Ceph, ZFS, Gluster, VMware, KVM,
+OpenStack, Puppet, Salt, Nagios, Ganglia, InfluxDB, DataDog, PagerDuty, SSSD,
+OpenLDAP, Okta, CIS hardening, FreeBSD, Solaris, Perl, and Ruby.
+
+Two decades of systems and network engineering underneath the AI work: TCP/IP with
+nmap, Wireshark, and tcpdump; network topology design across Mellanox, Arista,
+Cisco NX-OS/IOS, Dell Force10, and EdgeCore whitebox switching; security and
+identity with iptables, BSD Packet Filter, Nessus, hostapd, Shibboleth, SSSD,
+OpenLDAP, Okta, and SentinelOne; enterprise monitoring with RRDtool, Cacti,
+Nagios, HP OpenView, CA Spectrum, ServiceNow, and Tableau; web and application
+infrastructure with Apache, NGINX, Squid, Java/WebLogic, and Jekyll; OpenMPI and
+high throughput computing; bare metal provisioning, hardware procurement, budget
+management, datacenter acquisition, change and incident management, and 24/7 NOC
+operations. Also does technical interviewing and engineering hiring from
+individual contributor through VP level.
+
+## Publications
+
+Credited for infrastructure contributions on the Virchow pathology foundation
+model (Nature Medicine, 2024) and its successors Virchow2, PRISM, PRISM2, and
+OmniScreen, and on the INDIS '15 / SC15 software-defined networking work.
+Co-author on two CHEP 2016 papers in Journal of Physics: Conference Series
+(SDN-NGenIA; HTTP as a Data Access Protocol: Trials with XrootD in CMS's AAA
+Project).
+
+## Pages
+
+- [Home](https://waynehendricks.com/): current work and the systems he has built.
+- [CV](https://waynehendricks.com/cv/): full career history, technical expertise,
+  and career detail.
+- [Publications](https://waynehendricks.com/publications/): papers with DOI and
+  arXiv links, including infrastructure acknowledgements and co-authored work.
+
+## Profiles
+
+- GitHub: https://github.com/twh
+- Google Scholar: https://scholar.google.com/citations?hl=en&user=R2H2QjwAAAAJ
+- ORCID: https://orcid.org/0000-0001-9111-8968
+
+## Interests
+
+Principal and founding engineer roles in AI infrastructure, HPC, and scientific
+computing, particularly biological and scientific foundation models, autonomous
+lab platforms, and frontier-scale training infrastructure.

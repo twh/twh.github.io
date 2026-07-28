@@ -1,12 +1,10 @@
 ---
-title: "Publications and Acknowledgements"
-description: "Publications and Acknowledgements"
+title: "Publications"
+description: "Papers where I built the underlying training infrastructure, including the Virchow and PRISM pathology foundation models and OmniScreen, plus co-authored work from the Caltech CMS / Large Hadron Collider era."
 date: 2026-05-08
 showTableOfContents: false
 showReadingTime: false
 ---
-
-## Acknowledgements
 
 Papers where I am credited for infrastructure contributions.
 
@@ -93,29 +91,34 @@ Computing, Networking, Storage and Analysis.
 
 *Contribution: Built and operated the SDN testbed and high-speed data-transfer infrastructure used in the demonstrations.*
 
+[DOI](https://doi.org/10.1145/2830318.2830320) ·
 [PDF](/files/INDIS2015.pdf)
 
-## Co-authored
-
-Papers I co-authored from the Caltech CMS / Large Hadron Collider era.
+---
 
 ### SDN-NGenIA: A Software Defined Next Generation Integrated Architecture for HEP and Data Intensive Science
-**J. Balcas, et al.** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)
+**J. Balcas, T. W. Hendricks, D. Kcira, A. Mughal, H. Newman, M. Spiropulu, J. R. Vlimant** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)
 
 A software-defined next-generation integrated architecture supporting
 high-energy physics and data-intensive science. Presented at the 22nd
 International Conference on Computing in High Energy and Nuclear Physics
 (CHEP 2016), San Francisco.
 
+*Contribution: Built and operated the SDN testbed and high-speed data-transfer infrastructure used in the demonstrations.*
+
+[DOI](https://doi.org/10.1088/1742-6596/898/11/112001) ·
 [PDF](/files/sdn-ngenia.pdf)
 
 ---
 
 ### HTTP as a Data Access Protocol: Trials with XrootD in CMS's AAA Project
-**J. Balcas, et al.** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)
+**J. Balcas, B. P. Bockelman, D. Kcira, H. Newman, J. Vlimant, T. W. Hendricks** · Journal of Physics: Conference Series, Vol. 898 (CHEP 2016)
 
 Evaluation of HTTP as a data access protocol for the CMS Any-data
 Anytime Anywhere (AAA) project, comparing performance and operational
 characteristics against XrootD's native protocol.
 
+*Contribution: Built and operated the SDN testbed and high-speed data-transfer infrastructure used in the demonstrations.*
+
+[DOI](https://doi.org/10.1088/1742-6596/898/6/062042) ·
 [PDF](/files/httpxrootd.pdf)

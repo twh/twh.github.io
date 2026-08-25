@@ -53,16 +53,16 @@ jobs:
           python3 -m pip install --quiet --upgrade pypdf
           (cd public && python3 -m http.server 8899 >/dev/null 2>&1 &)
           for i in $(seq 1 20); do
-            curl -sf http://127.0.0.1:8899/resume/ >/dev/null && break
+            curl -sf http://127.0.0.1:8899/downloads/ >/dev/null && break
             sleep 0.5
           done
           google-chrome --headless=new --disable-gpu --no-sandbox \
             --print-to-pdf=/tmp/resume_raw.pdf --no-pdf-header-footer \
             --virtual-time-budget=10000 \
-            "http://127.0.0.1:8899/resume/"
+            "http://127.0.0.1:8899/downloads/"
           mkdir -p public/files
           python3 .github/scripts/pdf_meta.py \
-            public/resume/index.html /tmp/resume_raw.pdf \
+            public/downloads/index.html /tmp/resume_raw.pdf \
             public/files/wayne-hendricks-cv.pdf
           ls -la public/files/wayne-hendricks-cv.pdf
 

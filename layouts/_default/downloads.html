@@ -3,11 +3,13 @@
   Deliberately does NOT use the site chrome: no nav, no theme fonts, no tables,
   single column, standard headings, text-selectable output.
 
-  "Download PDF" triggers the browser's print dialog; Save as PDF produces a
-  text-based (not scanned) PDF, which is what Workday / Greenhouse / Lever parse.
+  "Download PDF" serves the pre-built file that CI generates by printing this
+  very page (see .github/workflows/deploy.yml), so it can never drift from the
+  web CV. "Print" is the browser dialog for anyone who wants their own copy.
 */ -}}
 {{- $cv := .Site.GetPage "/cv" -}}
 {{- $pubs := .Site.GetPage "/publications" -}}
+{{- $pdf := "files/wayne-hendricks-cv.pdf" -}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,14 +59,20 @@
     max-width: 7.5in; margin: .3in auto 0; padding: 0 .6in;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
-  .toolbar button, .toolbar a.back {
+  .toolbar .meta { font-size: 9.5pt; color: #666; margin-bottom: .6em; }
+  .toolbar .meta a { color: #666; text-decoration: none; }
+  .toolbar .meta a:hover { color: #111; text-decoration: underline; }
+  .toolbar .meta .sep { padding: 0 .4em; }
+  .toolbar button, .toolbar a.btn {
     font: inherit; font-size: 10.5pt; cursor: pointer;
-    padding: .5em 1em; margin-right: .5em;
+    padding: .5em 1em; margin: 0 .5em .5em 0;
     border: 1px solid #999; border-radius: 4px;
     background: #f4f4f4; color: #111; text-decoration: none; display: inline-block;
   }
-  .toolbar button:hover { background: #e8e8e8; }
-  .hint { font-size: 9.5pt; color: #666; margin-top: .5em; }
+  .toolbar a.btn.primary { background: #111; border-color: #111; color: #fff; }
+  .toolbar button:hover, .toolbar a.btn:hover { background: #e8e8e8; }
+  .toolbar a.btn.primary:hover { background: #333; color: #fff; }
+  .hint { font-size: 9.5pt; color: #666; margin-top: .2em; }
 
   @media print {
     .toolbar { display: none !important; }
@@ -80,9 +88,14 @@
 <body>
 
 <div class="toolbar">
-  <button type="button" onclick="window.print()">Download PDF</button>
-  <a class="back" href="{{ "cv/" | relURL }}">Back to CV</a>
-  <div class="hint">Opens your browser's print dialog. Choose <strong>Save as PDF</strong> for a text-based file that applicant tracking systems can parse.</div>
+  <div class="meta">
+    <a class="back-link" href="{{ "cv/" | relURL }}">&larr; Back to CV</a>
+    <span class="sep">&middot;</span>
+    <time datetime="{{ $cv.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $cv.Date.Format "2 January 2006" }}</time>
+  </div>
+  <a class="btn primary" href="{{ $pdf | relURL }}" download="wayne-hendricks-cv.pdf">Download PDF</a>
+  <button type="button" onclick="window.print()">Print</button>
+  <div class="hint">The download is a text-based PDF that applicant tracking systems can parse, rebuilt from this page on every site update. <strong>Print</strong> opens your browser's print dialog.</div>
 </div>
 
 <h1>{{ .Site.Params.Author.name }}</h1>

@@ -9,6 +9,9 @@ resources/_gen/
 # Ignore the directory for local files during development
 local/
 
+# Claude Code local settings
+.claude/
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 

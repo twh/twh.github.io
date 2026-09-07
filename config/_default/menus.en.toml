@@ -1,9 +1,9 @@
 [[main]]
-  name = "Publications"
-  pageRef = "/publications"
+  name = "CV"
+  pageRef = "/cv"
   weight = 10
 
 [[main]]
-  name = "CV"
-  pageRef = "/cv"
+  name = "Publications"
+  pageRef = "/publications"
   weight = 20

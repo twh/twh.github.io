@@ -66,6 +66,12 @@ jobs:
             public/files/wayne-hendricks-cv.pdf
           ls -la public/files/wayne-hendricks-cv.pdf
 
+      # Runs after the PDF step so the generated file is on disk. A broken
+      # internal link fails the build; external results are advisory, since
+      # some hosts block CI runners outright.
+      - name: Check links
+        run: python3 .github/scripts/check_links.py public --external
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

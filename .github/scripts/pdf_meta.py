@@ -19,12 +19,22 @@ from pypdf import PdfReader, PdfWriter
 
 
 def meta(source: str, name: str) -> str:
+    """Read a <meta name=... content=...> value.
+
+    Attribute values may be double-quoted, single-quoted, or bare: `hugo
+    --minify` strips the quotes from `name="keywords"` but keeps them on the
+    content, and matching only the quoted form silently yields "".
+    """
     m = re.search(
-        r'<meta\s+name=["\']%s["\']\s+content=["\'](.*?)["\']\s*/?>' % name,
+        r'<meta\s+name=["\']?%s["\']?\s+content=(?:"([^"]*)"|\'([^\']*)\'|([^\s>]+))\s*/?>'
+        % name,
         source,
         re.S | re.I,
     )
-    return html.unescape(m.group(1)).strip() if m else ""
+    if not m:
+        return ""
+    value = next(g for g in m.groups() if g is not None)
+    return html.unescape(value).strip()
 
 
 def main() -> int:
@@ -32,9 +42,16 @@ def main() -> int:
     with open(html_path, encoding="utf-8") as fh:
         source = fh.read()
 
-    title = meta(source, "title") or "Wayne Hendricks — Resume"
     keywords = meta(source, "keywords")
     subject = meta(source, "description")
+
+    # These fields are the whole point of the step: an ATS reads them. Writing
+    # them empty produces a PDF that looks fine and carries nothing, so treat a
+    # parse miss as a build failure rather than shipping a hollow file.
+    missing = [n for n, v in (("keywords", keywords), ("description", subject)) if not v]
+    if missing:
+        print(f"ERROR: no <meta> content found for: {', '.join(missing)}", file=sys.stderr)
+        return 1
 
     reader = PdfReader(pdf_in)
     writer = PdfWriter()

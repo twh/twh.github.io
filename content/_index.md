@@ -18,7 +18,7 @@ training infrastructure behind [Virchow](https://arxiv.org/abs/2309.07778),
 [PRISM2](https://arxiv.org/abs/2506.13063), and
 [OmniScreen](https://arxiv.org/abs/2408.09554).
 
-**[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group/hpc-computing)**, 2018 – 2022. "Pathfinder",
+**[Memorial Sloan Kettering Cancer Center](https://www.mskcc.org/research/ski/core-facilities/high-performance-computing-group)**, 2018 – 2022. "Pathfinder",
 an on-prem AI/ML cluster with 100 GPUs and 5 PB of pathology images
 in tiered storage. The first cluster with the newly released
 NVIDIA DGX-1 Volta GPU server platform at a cancer center, a

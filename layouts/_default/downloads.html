@@ -73,6 +73,13 @@
   .toolbar button:hover, .toolbar a.btn:hover { background: #e8e8e8; }
   .toolbar a.btn.primary:hover { background: #333; color: #fff; }
   .hint { font-size: 9.5pt; color: #666; margin-top: .2em; }
+  .latest {
+    margin-top: .3in; padding-top: .08in;
+    border-top: 1px solid #999;
+    font-size: 9.5pt; font-style: italic; color: #444;
+    page-break-inside: avoid;
+  }
+  .latest a { text-decoration: underline; }
 
   @media print {
     .toolbar { display: none !important; }
@@ -120,6 +127,14 @@
 
 <h2>Publications</h2>
 {{ $pubs.Content }}
+
+{{/* A downloaded PDF outlives the page it came from. Tell whoever is holding a
+     stale copy where the current one lives, with an absolute URL so the link
+     still works outside the site. */}}
+<p class="latest">
+  Last updated {{ $cv.Date.Format "2 January 2006" }}. The current version is
+  always at <a href="{{ "cv/" | absURL }}">waynehendricks.com/cv</a>.
+</p>
 
 </body>
 </html>

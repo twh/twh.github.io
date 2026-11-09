@@ -5,8 +5,8 @@ description: "I build supercomputers and the training infrastructure behind foun
 
 ## What I'm Up To Lately
 
-GPU systems on GCP for clinical-grade computational pathology models at [Tempus](https://www.tempus.com).
-Currently migrating Azure training infrastructure to GCP.
+GPU systems on Azure and GCP for clinical-grade computational pathology models at [Tempus](https://www.tempus.com).
+For fun, I've been reverse engineering WWAN software and drivers for contributions to [ModemManager](https://gitlab.freedesktop.org/mobile-broadband/ModemManager) and [libqmi](https://gitlab.freedesktop.org/mobile-broadband/libqmi) at freedesktop.org.
 
 ## Past systems
 

@@ -32,7 +32,7 @@ Paige.AI's founding HPC engineer, from 2018 through its $81M acquisition by Temp
 - Architected "Azul", a dynamic Azure CycleCloud and Slurm cluster scaling on-demand to hundreds of GPUs with 7 PB of whole-slide imaging on Azure Managed Lustre; ran 1.5M jobs in 2025.
 - Grew the environment from 5 to 40+ ML researchers across four NVIDIA generations (Pascal, Volta, Ampere, Hopper) and from on-prem to Azure and AWS.
 - Helped hire the early management and engineering staff, including ML, infrastructure, and platform leads.
-- Now migrating Paige's training and inference infrastructure into Tempus's GCP environment as its pathology models fold into Tempus's oncology foundation-model effort.
+- Now running GPU systems on Azure and GCP for clinical-grade computational pathology models at Tempus.
 
 ### HPC Engineer
 **Memorial Sloan Kettering Cancer Center, New York City**
@@ -64,7 +64,7 @@ Paige.AI's founding HPC engineer, from 2018 through its $81M acquisition by Temp
 
 ## Technical Expertise
 
-NVIDIA DGX and GPU cluster architecture across Pascal, Volta, Ampere, Hopper, and Blackwell. Slurm, Azure CycleCloud, HTCondor, Kueue, and Kubernetes for scheduling and orchestration. InfiniBand, RoCE, NVLink/NVSwitch, GPUDirect RDMA, NCCL, and DOCA for high-performance fabrics. Lustre, Weka, GPFS, NetApp, Pure, and S3/Blob for high performance storage and data archival at petabyte scale. Azure, AWS, and GCP with Terraform, Packer, and Ansible. Network performance and systems debugging on Linux, and automation with mostly shell and Python.
+NVIDIA DGX and GPU cluster architecture across Pascal, Volta, Ampere, Hopper, and Blackwell. Slurm, Azure CycleCloud, HTCondor, Kueue, and Kubernetes for scheduling and orchestration. InfiniBand, RoCE, NVLink/NVSwitch, GPUDirect RDMA, NCCL, and DOCA for high-performance fabrics. Lustre, Weka, GPFS, NetApp, Pure, and S3/Blob for high performance storage and data archival at petabyte scale. Azure, AWS, and GCP with Terraform, Packer, and Ansible. Network performance and systems debugging on Linux, and automation with mostly shell and Python. Outside work, reverse engineering WWAN software and drivers for contributions to [ModemManager](https://gitlab.freedesktop.org/mobile-broadband/ModemManager) and [libqmi](https://gitlab.freedesktop.org/mobile-broadband/libqmi) at freedesktop.org.
 
 ---
 

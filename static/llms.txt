@@ -11,9 +11,12 @@
 ## Current role
 
 Senior HPC Engineer at Tempus AI (New York City), 2018–present, continuing through
-the September 2025 acquisition of Paige.AI. Runs GPU systems on GCP for
-clinical-grade computational pathology models and is migrating the Paige Azure
-training stack into Tempus's GCP environment.
+the September 2025 acquisition of Paige.AI. Runs GPU systems on Azure and GCP
+for clinical-grade computational pathology models.
+
+Outside work, reverse engineers WWAN software and drivers for contributions to
+ModemManager (https://gitlab.freedesktop.org/mobile-broadband/ModemManager) and
+libqmi (https://gitlab.freedesktop.org/mobile-broadband/libqmi) at freedesktop.org.
 
 ## Systems built
 

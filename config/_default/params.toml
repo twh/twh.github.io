@@ -96,6 +96,9 @@ keywords = [
   "budget management", "vendor management", "research computing support",
   "scientific workflows", "data intensive science", "data transfer",
   "high throughput computing", "batch scheduling", "cluster administration",
+  "WWAN", "cellular modems", "mobile broadband", "LTE", "5G", "QMI", "MBIM",
+  "ModemManager", "libqmi", "libmbim", "freedesktop.org", "reverse engineering",
+  "Linux device drivers", "Linux kernel drivers", "open source contributions",
 ]
 
 [homepage]

@@ -133,3 +133,5 @@ priority = 0.5
 [umamiAnalytics]
 websiteid = "a3a08aae-6e5c-46e2-b6c6-45799e4b7b87"
 domain = "cloud.umami.is"
+# Only count visits on the real site (ignore previews, forks, mirrors).
+dataDomains = "waynehendricks.com,www.waynehendricks.com"

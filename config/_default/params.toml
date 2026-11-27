@@ -126,3 +126,10 @@ cardViewScreenWidth = false
 changefreq = "weekly"
 filename = "sitemap.xml"
 priority = 0.5
+
+# Umami Cloud analytics (cookie-free). Blowfish injects the script on production
+# builds only. Domain is set explicitly because the theme's fallback host
+# (analytics.umami.is) is outdated.
+[umamiAnalytics]
+websiteid = "a3a08aae-6e5c-46e2-b6c6-45799e4b7b87"
+domain = "cloud.umami.is"
